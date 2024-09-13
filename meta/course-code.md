@@ -18,5 +18,5 @@
 | 计算机网络与通信实验       | [data/2024a-netexp](../data/2024a-netexp/README.md)     |            |
 | 虚拟现实技术               | [data/2024a-vr](../data/2024a-vr/README.md)             |            |
 | 科技写作与报告             | [data/2024a-engwri](../data/2024a-engwri/README.md)     |            |
-| 机器学习                   | [data/2024a-ml](../data/2024a-ml/README.md)             |            |
+| 机器学习                   | [data/2024a-ml](../data/2024a-ml/README.md)             | 软件学院   |
 
