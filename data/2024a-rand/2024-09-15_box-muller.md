@@ -56,7 +56,23 @@ $$
 ## 关键证明
 
 - 设 $\text{p.d.f}\;$ $F_{X, Y}(x, y)=\frac{1}{2\pi} e^{-\frac{x^2+y^2}{2}}$ 是二维标准高斯分布。
-- $R=\sqrt{x^2+y^2}, \theta=\tan^{-1}\frac{y}{x}$ 求 $R, \theta$ 服从什么分布？最后能算出来：
+- $R=\sqrt{x^2+y^2}, \theta=\tan^{-1}\frac{y}{x}$ （保证 $x=r\cos \theta, y=r\sin\theta$）求 $R, \theta$ 服从什么分布？
+- 中间算出来的雅可比矩阵是：
+
+$$
+\mathcal J=\begin{pmatrix}
+\frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta}\\
+\frac{\partial y}{\partial r} & \frac{\partial y}{\partial \theta}\\
+\end{pmatrix}=\begin{pmatrix}
+\cos \theta & -R\sin \theta\\
+\sin \theta & R\cos \theta
+\end{pmatrix}
+$$
+
+
+
+- 因此，雅可比行列式的绝对值等于 $|\mathcal J|=|R|=R\;(R>0)$ 
+- 最终算出来的 $\text{p.d.f}$ 是
 
 $$
 F_{R,\theta}=\frac{R}{2\pi}e^{-\frac{R^2}{2}}
