@@ -1,3 +1,5 @@
+# 检查公开日志中是否有重复出现的文件名
+
 import os
 import dir_utils
 from mylog import log

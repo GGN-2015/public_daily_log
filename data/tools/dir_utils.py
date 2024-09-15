@@ -33,13 +33,13 @@ def __get_path_split(path_content): # 拆分文件名
         ]
 
 @functools.cache
-def get_all_file_in_this_project(): # 忽略 .git 文件夹
+def get_all_file_in_this_project(): # 忽略 .git 文件夹以及 .pyc 文件
     arr = []
     root_dir  = get_root_dir()
     file_list = __get_dir_filelist_recursive(root_dir)
     for file in file_list:
         relpath = os.path.relpath(file, root_dir)
-        if __get_path_split(relpath)[0] != ".git":
+        if __get_path_split(relpath)[0] != ".git" and not file.endswith(".pyc"):
             arr.append(file)
     return arr
 
