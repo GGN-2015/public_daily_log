@@ -1,11 +1,14 @@
 import os
 import functools
 
-def get_tools_dir():
+def get_tools_dir() -> str:
     return os.path.dirname(os.path.abspath(__file__))
 
-def get_root_dir():
-    return os.path.dirname(get_tools_dir())
+def get_root_dir() -> str:
+    return os.path.dirname(os.path.dirname(get_tools_dir()))
+
+def get_readme_filepath() -> str:
+    return os.path.join(get_root_dir(), "README.md")
 
 def __get_dir_filelist(dirpath) -> list: # 获取某个目录中的所有文件
     return os.listdir(dirpath)
@@ -43,6 +46,19 @@ def get_all_file_in_this_project(): # 忽略 .git 文件夹以及 .pyc 文件
             arr.append(file)
     return arr
 
-if __name__ == "__main__":
+def split_filename(filename) -> list: # 拆分路径
+    l, r = os.path.split(filename)
+    if l == filename or r == filename:
+        return [filename]
+    else:
+        return split_filename(l) + split_filename(r)
+
+def get_all_relpath_in_this_project():
+    arr = []
     for file in get_all_file_in_this_project():
+        arr.append(split_filename(os.path.relpath(file, get_root_dir())))
+    return arr
+
+if __name__ == "__main__":
+    for file in get_all_relpath_in_this_project():
         print(file)

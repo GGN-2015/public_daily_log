@@ -99,19 +99,9 @@
 - dual matrix of vector
 
   - $$
-    \vec a\times \vec b=A\times \vec b=
-    \begin{pmatrix}
-    0 & -z_a & y_a\\
-    z_a & 0 & -x_a\\
-    -y_a & x_a & 0
-    \end{pmatrix}
-    \begin{pmatrix}
-    x_b\\
-    y_b\\
-    z_b
-    \end{pmatrix}
+    \vec a\times \vec b=A\times \vec b=\begin{pmatrix}0 & -z_a & y_a\\z_a & 0 & -x_a\\-y_a & x_a & 0\end{pmatrix}\begin{pmatrix}x_b\\y_b\\z_b\end{pmatrix}
     $$
-
+  
 - homogeneous coordinates：齐次坐标
 
 
