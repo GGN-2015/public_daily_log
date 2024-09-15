@@ -2,6 +2,6 @@
 
 ## 2024 年
 
-1. [data/misc/2024-09.md](./2024-09.md)
-2. [data/misc/2024-09-14_safety.md](./2024-09-14_safety.md)
+1. [2024-09_misc.md](../../data/misc/2024-09_misc.md)
+2. [2024-09-14_safety.md](../../data/misc/2024-09-14_safety.md)
 
