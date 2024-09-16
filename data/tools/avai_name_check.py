@@ -46,9 +46,9 @@ def check_lower_alpha_digit_underline(s: str): # 检查小写字母数字下划�
 
 def date_format_check(s: str) -> bool:
     return bool(
-        re.match("^\d\d\d\d$", s) or        # 年
-        re.match("^\d\d\d\d-\d\d$", s) or   # 月
-        re.match("^\d\d\d\d-\d\d-\d\d$", s) # 日
+        re.match(r"^\d\d\d\d$", s) or        # 年
+        re.match(r"^\d\d\d\d-\d\d$", s) or   # 月
+        re.match(r"^\d\d\d\d-\d\d-\d\d$", s) # 日
     )
 
 def avai_name_check(filename) -> bool: # 检查文件名是否合法
