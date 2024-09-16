@@ -1,11 +1,9 @@
 # 检查公开日志中文件名的合法性
 # 写得太丑陋了，以后回来改
 
-import os
-import dir_utils
 import re
-from mylog import log
-from dup_name_check import dup_name_dict
+from pub_mylog import log
+from pub_dup_name_check import dup_name_dict
 
 def check_lower_alpha_digit(s: str): # 检查是否只有小写字母和数字
     for c in s:
@@ -46,9 +44,9 @@ def check_lower_alpha_digit_underline(s: str): # 检查小写字母数字下划�
 
 def date_format_check(s: str) -> bool:
     return bool(
-        re.match(r"^\d\d\d\d$", s) or        # 年
-        re.match(r"^\d\d\d\d-\d\d$", s) or   # 月
-        re.match(r"^\d\d\d\d-\d\d-\d\d$", s) # 日
+        re.match(r"^\d\d\d\d$", s) is not None or        # 年
+        re.match(r"^\d\d\d\d-\d\d$", s) is not None or   # 月
+        re.match(r"^\d\d\d\d-\d\d-\d\d$", s) is not None # 日
     )
 
 def avai_name_check(filename) -> bool: # 检查文件名是否合法
