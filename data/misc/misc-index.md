@@ -2,7 +2,7 @@
 
 ## 2023 年
 
-- 《一道有趣的极限问题及其拓展》[2023-09-08_math-with-hou.md](../../data/misc/2023-09-08_math-with-hou.md)
+- 《一道有趣的极限问题及其拓展》[2023-09-08_math-with-hou.md](../../data/misc/2023-09-08_math-with-hou.md) （非结构化）
 
 ## 2024 年
 
