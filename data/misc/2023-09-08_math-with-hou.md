@@ -8,11 +8,11 @@
 
 ## 特别鸣谢
 
-`adipy` 大佬：`2023-09-08` 和我从 0 点讨论到 3 点多
+- `adipy` 大佬：`2023-09-08` 和我从 0 点讨论到 3 点多
 
-`HocRiser` 大佬：帮我找到了狂赌之渊里的那张图并且愿意帮我审稿
+- `HocRiser` 大佬：帮我找到了狂赌之渊里的那张图并且愿意帮我审稿
 
-`Zouki Li` 大佬：提供了一种针对  $0<a<1$ 情况收敛性更简单的归纳证明方式（即本文中使用的方法）
+- `Zouki Li` 大佬：提供了一种针对  $0<a<1$ 情况收敛性更简单的归纳证明方式（即本文中使用的方法）
 
 ## 0.前言
 
@@ -292,8 +292,8 @@ a = 2.088000 => A_179 =     23205781410878540417849098240.000000
 $\sqrt[\;^a] a$ 表示 “$a$ 次根号下 $a$”，我们希望探究：
 $$
 \begin{aligned}
-&(\text{we\;always\;suppose}\; a>1)\\
-&\text{when\;does} {\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{{{\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{\cdots}}}}} \text{converge}?
+&(\text{we always suppose}\; a>1)\\
+&\text{when does} {\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{{{\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{\cdots}}}}} \text{converge}?
 \end{aligned}
 $$
 我们可以使用类似 $2.1$ 和 $2.2$ 的方法得到，无论 $a$ 取什么值，只要 $a>1$，原表达式 ${\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{{{\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{\cdots}}}}}$ 总是收敛的。
@@ -301,7 +301,7 @@ $$
 但是对于 $a\leq e$ 和 $a>e$ 两种情况，他们收敛到的最终答案却具有不同的形式：
 
 - 当 $a\leq e$ 时 ${\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{{{\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{\cdots}}}}}=a$
-- 当 $a>e$ 时 ${\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{{{\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{\cdots}}}}}=a', \text{where\;} x=a' \text{\;is\;the\;smaller\;solution\;for\;equation\;on\;} x: \frac{\ln x}{x}=\frac{\ln a}{a}$
+- 当 $a>e$ 时 ${\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{{{\sqrt[\;^a] a}^{{\sqrt[\;^a] a}^{\cdots}}}}}=a', \text{where } x=a' \text{ is the smaller solution for equation on } x: \frac{\ln x}{x}=\frac{\ln a}{a}$
 
 大致过程列举如下：
 
@@ -318,8 +318,8 @@ $$
 不过上帝与集合的正确用法那个题目和我们现在要讨论的问题没什么大关系，但是在形式上确实能够起到启发的作用。
 $$
 \begin{aligned}
-&(\text{suppose\;a>0})\\
-&\text{when\;does\;} a^{a^{a^{a^{\cdots}}}} \text{\;converge}?
+&(\text{suppose a>0})\\
+&\text{when does } a^{a^{a^{a^{\cdots}}}} \text{ converge}?
 \end{aligned}
 $$
 首先 $a=1$ 时肯定收敛于 $1$，这要是都看不出来我这么多年数学算是白学了。
@@ -327,7 +327,7 @@ $$
 如果这个东西收敛，那么 $f(x)=a^x$ 肯定存在不动点（原理同 $2.1$），讨论 $a^x=x$ 何时有解。
 $$
 \begin{aligned}
-&(\text{suppose\;a>0})\\
+&(\text{suppose a>0})\\
 &a^x=x\\
 \Leftrightarrow\;&x\ln a=\ln x\\
 \Leftrightarrow\;&\frac{\ln x}{x} = \ln a
@@ -389,9 +389,9 @@ $$
 根据 $4.2.1$ 以及 $4.2.2$ 可以得到：
 $$
 \begin{aligned}
-&\text{when\;} 1<a<e^{\frac{1}{e}}\\
+&\text{when } 1<a<e^{\frac{1}{e}}\\
 &a^{a^{a^{a^{\cdots}}}} = a_1\\
-&\text{where\;} x=a_1\; \text{is\;the\;smaller\;solution\;for\;equation\;on\;} x:\; \frac{\ln x}{x}=\ln a
+&\text{where } x=a_1\; \text{is the smaller solution for equation on } x:\; \frac{\ln x}{x}=\ln a
 \end{aligned}
 $$
 
