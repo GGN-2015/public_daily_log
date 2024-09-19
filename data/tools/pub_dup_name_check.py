@@ -8,8 +8,6 @@ def dup_name_dict() -> dict: # 获得重名检查 dict
     dic = {}
     for file in pub_dir_utils.get_all_file_in_this_project():
         basename = os.path.basename(file)
-        if basename in ["README.md", "LICENSE"]: # 跳过两个必然存在的文件名
-            continue
         if dic.get(basename) is None: # 初始化列表
             dic[basename] = []
         dic[basename].append(file)
