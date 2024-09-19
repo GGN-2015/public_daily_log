@@ -1,5 +1,11 @@
 #  《杂项索引》
 
+```json
+{
+    "tags":["index"]
+}
+```
+
 - `GGN_2015` 有一个年久失修的 CSDN 博客 https://blog.csdn.net/GGN_2015?type=blog
   - 以后大概率不会频繁更新了，但是 `GGN_2015` **应当**（SHOULD）做必要的纠错工作。
 
