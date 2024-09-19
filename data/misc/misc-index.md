@@ -13,6 +13,7 @@
   - `2024-05-09`《【勘误】一个错误的快速排序实现》https://blog.csdn.net/GGN_2015/article/details/138627307
   - `2024-09-14`《软件第三方 QA 相关的思考》[2024-09-14_safety.md](../../data/misc/2024-09-14_safety.md)
   - `2024-09-18`《拉东变换示例与实战》[2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md)
+  - `2024-09-20`《LZS 来问了一个问题》[2024-09-20_math-with-lzs.md](../../data/misc/2024-09-20_math-with-lzs.md)
 
 ## 2023 年
 
