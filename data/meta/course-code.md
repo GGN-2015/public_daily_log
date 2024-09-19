@@ -18,6 +18,6 @@
 | 计算机网络与通信实验       | [2024a-netexp-index.md](../../data/2024a-netexp/2024a-netexp-index.md) |                          |
 | 虚拟现实技术               | [2024a-vr/2024a-vr-index.md](../../data/2024a-vr/2024a-vr-index.md) |                          |
 | 科技写作与报告             | [2024a-engwri-index.md](../../data/2024a-engwri/2024a-engwri-index.md) |                          |
-| 机器学习                   | [2024a-ml-index.md](../../data/2024a-ml/2024a-ml-index.md)   | 软件学院开设，**已退课** |
+| ~~机器学习~~               | ~~[2024a-ml-index.md](../../data/2024a-ml/2024a-ml-index.md)~~ | 软件学院开设，**已退课** |
 | games101                   | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) | 线上课程                 |
 
