@@ -59,6 +59,13 @@ def get_all_relpath_in_this_project():
         arr.append(split_filename(os.path.relpath(file, get_root_dir())))
     return arr
 
+def get_all_markdown_file(): # 获取项目中的所有 markdown 文件
+    return [
+        x
+        for x in get_all_file_in_this_project()
+        if x.endswith(".md")
+    ]
+
 if __name__ == "__main__":
     for file in get_all_relpath_in_this_project():
         print(file)

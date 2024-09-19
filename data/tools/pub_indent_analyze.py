@@ -1,3 +1,5 @@
+import pub_dir_utils
+
 def get_indent_len(content) -> int:
     if content.lstrip().startswith("-"):
         return 2
@@ -29,7 +31,6 @@ def get_all_lines_in_markdown(filename):
     return arr
 
 if __name__ == "__main__":
-    from pub_dir_scan import get_all_markdown_file
-    for md_file in get_all_markdown_file():
+    for md_file in pub_dir_utils.get_all_markdown_file():
         for line in get_all_lines_in_markdown(md_file):
             print(line)
