@@ -6,6 +6,7 @@
 - 课程列表：[course-code.md](./data/meta/course-code.md)
 - 杂项索引：[misc-index.md](./data/misc/misc-index.md)
 - 审计工作：[stat-index.md](./data/stat/stat-index.md)
+- 工具列表：[tools-index.md](./data/tools/tools-index.md)
 
 ## 2. TODO LIST
 
