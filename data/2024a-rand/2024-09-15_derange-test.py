@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 def derange_check(arr: list): # 检查是否是错排
     for idx, val in enumerate(arr):
-        if idx == val:
+        if idx == val: # 只要出现了位置等于编号的情况，就说明不是错排
             return False
     return True
 
