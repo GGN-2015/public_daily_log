@@ -2,10 +2,10 @@
 
 ## 1.内容索引
 
-1. 日志规则：[journal-rules.md](./data/meta/journal-rules.md)
-2. 课程列表：[course-code.md](./data/meta/course-code.md)
-3. 杂项索引：[misc-index.md](./data/misc/misc-index.md)
-4. 睡眠情况：[sleep-time.md](./data/misc/sleep-time.md)
+- 日志规则：[journal-rules.md](./data/meta/journal-rules.md)
+- 课程列表：[course-code.md](./data/meta/course-code.md)
+- 杂项索引：[misc-index.md](./data/misc/misc-index.md)
+- 审计工作：[stat-index.md](./data/stat/stat-index.md)
 
 ## 2. TODO LIST
 
