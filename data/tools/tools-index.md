@@ -4,4 +4,5 @@
 - `pub_avai_name_check.py`：检查公开日志项目中是否有不符合规定要求的文件名。
 - `pub_dup_name_check.py`：检查公开日志项目中是否有文件重名。
 - `pub_get_tags.py`：【管道工具】，在公开日志中使用 tags json 标签检索文件。
+- 公式测试：\\(f(x)=\frac{1}{\sqrt{2\pi}\sigma}\cdot\exp\left(-\frac{1}{2}\frac{(x-a)^2}{\sigma^2}\right)\\)
 
