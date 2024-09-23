@@ -121,3 +121,28 @@ $$
 - 得到 $-(|a|+|b|)\leq a+b\leq(|a|+|b|)$
 - 得到 $|a+b|\leq |a|+|b|$
 
+#### 柯西施瓦兹不等式
+
+$$
+\left|\sum_{i=1}^na_ib_i\right|\leq \sqrt{\sum_{i=1}^na_i^2}\cdot \sqrt{\sum_{i=1}^nb_i^2}
+$$
+
+- 前几天刚写过一个证明，不再写一次了。
+  - 详见 [2024-09-17_corr.md](../../data/2024a-rand/2024-09-17_corr.md)
+  - 需要注意的是，要将其中的期望写成均值的形式，其他地方变化不大。
+
+## 正弦正切不等式
+
+$$
+0<x<\frac{\pi}{2} \Rightarrow \sin x\leq x\leq \tan x
+$$
+
+- 可以使用几何方法得到证明：即三角形和扇形的面积关系。
+
+<img src="../../blob/img/2024-09-23_sin-x-tan.png">
+
+- 取一个半径为 1 的圆，取圆心角弧度为 $x$，则
+  - 三角形 $AOB$ 的面积为 $\frac{1}{2}\sin x$
+  - 扇形 $AOB$ 的面积为 $\frac{1}{2} x$
+  - 三角形 $AOC$ 的面积为 $\frac{1}{2} \tan x$
+
