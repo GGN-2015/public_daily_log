@@ -55,6 +55,16 @@ def pre_math_keep_slash_type2(md_text):
         new_text = new_text.replace(old_link, new_link)
     return new_text
 
+# 对数学公式中的小于号和大于号进行转义
+def pre_math_keep_lt_gt(md_text):
+    regex    = r"\$\$[^\$]+\$\$"
+    new_text = md_text
+    for match in re.finditer(regex, md_text):
+        old_link = (match.group(0))
+        new_link = (match.group(0)).replace("<", r"\lt ").replace(">", r"\gt ")
+        new_text = new_text.replace(old_link, new_link)
+    return new_text
+
 # 将指向 markdown 文件的链接改为指向 html 文件的
 def rename_link(md_text): 
     regex = r"\[[^\]]*\]\([^\)]*.md\)"
@@ -104,9 +114,10 @@ def create_all_html_file():
         markdown_content = wrap_http_link(markdown_content) # 渲染管线
         markdown_content = pre_math_keep_slash_type1(markdown_content)
         markdown_content = pre_math_keep_slash_type2(markdown_content)
+        markdown_content = pre_math_keep_lt_gt(markdown_content)
         markdown_content = rename_link(markdown_content)
         markdown_content = render_del(markdown_content)
-        html_content     = get_html_from_md(markdown_content)
+        html_content     = get_html_from_md(markdown_content) # 渲染 html
         html_content     = render_math_in_line(html_content)
         html_content     = del_em_in_math_content(html_content)
         new_file = old_file[:-3] + ".html"
