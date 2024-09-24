@@ -50,15 +50,15 @@ def get_last_date_tag(date_tag):
     return "v" + get_previous_day(date_tag[1:])
 
 def gen_line_stat_content() -> str: # 生成行数统计信息
-    content  = "# 《`GGN_2015` 的公开日志中每日新增行数情况》\n"
+    content  = "# 《`GGN_2015` 的公开日志中每日新增行数情况》\n\n"
     content += "| 日期 | 修改信息 |\n"
-    content += "| ---- | ---- |\n"
+    content += "| ---- | ----: |\n"
     for date_tag in get_date_tag_list():
         last_date_tag = get_last_date_tag(date_tag)
         previous_hash = get_last_commit_of_a_day(last_date_tag)
         now_hash      = get_last_commit_of_a_day(date_tag)
         change_info   = (compare_commits(previous_hash, now_hash))
-        content += "| %s | %s |\n" % (date_tag[1:], change_info)
+        content += "| **%s** | %s |\n" % (date_tag[1:], change_info)
     return content
 
 if __name__ == "__main__":
