@@ -4,11 +4,21 @@ import functools
 def get_tools_dir() -> str:
     return os.path.dirname(os.path.abspath(__file__))
 
-def get_root_dir() -> str:
-    return os.path.dirname(os.path.dirname(get_tools_dir()))
+def get_root_dir(*args) -> str:
+    base = os.path.dirname(os.path.dirname(get_tools_dir()))
+    return os.path.join(base, *args)
 
 def get_readme_filepath() -> str:
     return os.path.join(get_root_dir(), "README.md")
+
+def get_github_dir() -> str:
+    return os.path.dirname(get_root_dir())
+
+def get_std_dir() -> str:
+    return os.path.join(get_github_dir(), "life_standard")
+
+def get_std_readme_dir() -> str:
+    return os.path.join(get_std_dir(), "README.md")
 
 def __get_dir_filelist(dirpath) -> list: # 获取某个目录中的所有文件
     return os.listdir(dirpath)

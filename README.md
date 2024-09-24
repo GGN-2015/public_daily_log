@@ -1,5 +1,9 @@
 # 《`GGN_2015` 的公开日志》
 
+- 读者须知：
+  - 此项目为 `GGN_2015` 的公开日志，其中不乏与事实不符的谬误，还望读者海涵。
+  - 纠错请联系 `premierbob AT qq.com`
+
 ## 1.内容索引
 
 - 日志规则：[journal-rules.md](./data/meta/journal-rules.md)
