@@ -98,6 +98,7 @@ def unwrap_math_content(html_content):
         old_link = (match.group(0))
         new_link = old_link.replace(MATH_CONTENT_BEGIN, "").replace(MATH_CONTENT_END, "").strip()
         new_link = base64.b64decode(new_link).decode("utf-8")
+        new_link = new_link.replace("<", r"\lt ").replace(">", r"\gt ")
         if new_link.startswith("$$"):
             new_text = new_text.replace(old_link, new_link)
         else:
