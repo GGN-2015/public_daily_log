@@ -63,10 +63,13 @@ def split_filename(filename) -> list: # 拆分路径
     else:
         return split_filename(l) + split_filename(r)
 
+def get_project_dir_list(filepath): # 路径拆分
+    return split_filename(os.path.relpath(filepath, get_root_dir()))
+
 def get_all_relpath_in_this_project():
     arr = []
     for file in get_all_file_in_this_project():
-        arr.append(split_filename(os.path.relpath(file, get_root_dir())))
+        arr.append(get_project_dir_list(file))
     return arr
 
 def get_all_markdown_file(): # 获取项目中的所有 markdown 文件
