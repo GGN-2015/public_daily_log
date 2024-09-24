@@ -55,4 +55,5 @@
    2. 使用 `pub_copy_std` 脚本拷贝《`GGN_2015` 的日常生活规范》到本项目。
    3. 使用 `pub_gen_title_list` 脚本生成整个项目的标题索引文件。
    4. 使用 `pub_html_tool` 脚本生成与所有 `markdown` 文件的对偶的 `html` 文件。
+   5. 使用 `neko push` 脚本同步数据到 `github`。
 
