@@ -1,0 +1,31 @@
+# 《关于实验室网站》
+
+## 2024-09
+
+- `2024-09-25` YP 老师让我维护实验室的 github pages
+  - 网站：https://vr-pan-junjun.github.io/
+  - 仓库：https://github.com/vr-pan-junjun/vr-pan-junjun.github.io
+  - 既然 YP 老师没有给我协作者，那我就 fork 一个然后提 PR 吧
+  - 仓库：https://github.com/GGN-2015/vr-pan-junjun.github.io
+
+- `2024-09-25` 去看一下 Hugo 的教程
+  - 网址：https://docs.hugoblox.com/tutorial/
+  - YP 老师给的文档：https://docs.hugoblox.com/getting-started/install-hugo/
+
+- `2024-09-25` 心路路程
+  - 使用 `oma install hugo` 安装了 hugo
+  - 在项目目录下执行 `hugo server --logLevel info` 遇到了报错
+    - WARN  deprecated: site config key paginate was deprecated in Hugo v0.128.0 and will be removed in a future release. Use pagination.pagerSize instead.
+      - 这个好解决，在 `hugo.yaml` 里改一下就行。
+    - ERROR deprecated: .Site.GoogleAnalytics was deprecated in Hugo v0.120.0 and will be removed in Hugo 0.135.0. Use .Site.Config.Services.GoogleAnalytics.ID instead.
+  - 我猜这个 `.Site.Config.Services.GoogleAnalytics.ID` 可能是和检索相关的东西吧，去掉应该问题不大？我找找。
+    - 我把 `params.yaml` 里的 `analytics` 中对应的项目删了
+      - 但是还是不能正常工作
+      - 所以我估计应该是主题导致的，我打算去主题对应的 github 页面看看
+      - 他是个 template 连 issue 都提不了，自闭
+    - 考虑到统计代码往往都是写在 paritals 的
+      - 读一下，感觉我代码里也没有 partial 块啊？https://gohugo.io/templates/partial/
+      - 好耶，解决了，做法是新建了空的 `baseof.html` 文件
+        - 这东西缺省项里有 lagecy 东西也不告诉我一声，我真的好惨
+        - 研究两个多小时终于解决了
+
