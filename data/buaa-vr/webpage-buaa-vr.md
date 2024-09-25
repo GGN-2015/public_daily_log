@@ -1,4 +1,4 @@
-# 《关于实验室网站》
+# 《关于 MCVR 实验室网站的心路历程》
 
 ## 2024-09
 
@@ -10,7 +10,7 @@
 
 - `2024-09-25` 去看一下 Hugo 的教程
   - 网址：https://docs.hugoblox.com/tutorial/
-  - YP 老师给的文档：https://docs.hugoblox.com/getting-started/install-hugo/
+  - 感谢 YP 老师给的文档：https://docs.hugoblox.com/getting-started/install-hugo/
 
 - `2024-09-25` 心路路程
   - 使用 `oma install hugo` 安装了 hugo
@@ -41,9 +41,27 @@
   - 第一步，把所有学生的名字填了
   - 第二步，挨个填他们的代表作
   - 最后，如果可能的话最好把每个人的邮箱找到
-
   - 诶，感觉还是不能让 people 根页面自动把 author 文件夹里的子目录导入进去
     - 哦哦，可能就是 `--disableFastRender` 吧
     - 理解了，每次 `hugo --cleanDestinationDir` 后必然导致 `page not found` 的问题
     - 但是刚才他怎么就好使了啊，自闭，我没觉得我做了任何操作啊？
+  - 我靠我终于复现出来了，流程是这样的
+    - 首先，删掉文件 `baseof.html`
+    - 然后执行 `hugo`，这个时候会有 google analysis 的那个报错
+    - 但是没关系，现在我们重新把 `baseof.html` 文件塞回去
+    - 再执行 `hugo server --disableFastRender` 后能看到正常的页面
+  - 让我分析一下到底发生了什么
+    - 这里我们假说演绎法一下（因为看不到 hugo 的源代码）
+    - 我分析很可能是因为缺省的 `baseof.html` 中使用了 lagecy 的语法调用了 `google analysis`
+    - 我们创建了空白的 `baseof.html` 由于是空白的，所以绕过了 `google analysis` 的 error deprecated
+    - 但是由于 `baseof.html` 中没有实际内容是不行的，所以在这种状态下无法构建 html
+  - 所以真正能够解决问题的方式应当是找到那个默认的 `baseof.html` 的缺省实现，然后去把里面有问题的东西修改了
+    - `baseof.html` 是主体相关的，但是我并没有在这个项目内看到任何主题声明
+    - 自闭
+    - 所以在这个问题彻底解决之前我先再填几个学生的信息上去吧
+
+- `2024-09-25` 回到先前的工作流
+  - 第一步，把所有学生的名字填了
+  - 第二步，挨个填他们的代表作
+  - 最后，如果可能的话最好把每个人的邮箱找到
 
