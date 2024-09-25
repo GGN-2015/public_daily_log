@@ -65,3 +65,16 @@
   - 第二步，挨个填他们的代表作
   - 最后，如果可能的话最好把每个人的邮箱找到
 
+- `2024-09-25` 给出一条可供参考的本地启动路线
+
+```bash
+rm ./layouts/_default/baseof.html
+hugo --cleanDestinationDir # 无视报错
+hugo                       # 无视报错
+touch ./layouts/_default/baseof.html
+hugo                            # 没有报错
+hugo server --disableFastRender # 没有报错
+```
+
+- `2024-09-25` 好现在所有姓名填写完了，之后还要写毕业去向，代表作，个人邮箱
+
