@@ -57,4 +57,5 @@
    4. 使用 `pub_gen_title_list` 脚本生成整个项目的标题索引文件。
    5. 使用 `pub_html_tool` 脚本生成与所有 `markdown` 文件的对偶的 `html` 文件。
    6. 使用 `neko push` 脚本同步数据到 `github`。
+   7. 使用 `rsync` 命令将数据同步到服务器。
 
