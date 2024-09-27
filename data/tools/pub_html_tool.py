@@ -15,6 +15,8 @@ def generate_random_sequence(length):
 RAW_DOLLAR         = generate_random_sequence(64)
 MATH_CONTENT_BEGIN = generate_random_sequence(64)
 MATH_CONTENT_END   = generate_random_sequence(64)
+HTML_LINK_BEGIN    = generate_random_sequence(64)
+HTML_LINK_END      = generate_random_sequence(64)
 
 CDN = """
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -39,12 +41,17 @@ def get_html_from_md(md_text):
     return html_with_mathjax
 
 # 封装 http 和 https 链接
+# 一定要考虑一件事：较短的链接可能是某个较长链接的前缀，因此替换时候一定要考虑到先替换长的才是正确的做法
 def wrap_http_link(md_text):
-    regex = r"http(s)*://[^\s\n]+"
+    regex = r"[^\[\(]{1}(http(s)?://[^\s\n]+)[\s\n]{1}"
     new_text = md_text
+    action_pair_list = []
     for match in re.finditer(regex, md_text):
-        old_link = match.group(0)
-        new_link = "[%s](%s)" % (old_link, old_link)
+        old_link = match.group(1)
+        new_link = HTML_LINK_BEGIN + base64.b64encode(old_link.encode("utf-8")).decode("utf-8") + HTML_LINK_END
+        action_pair_list.append((old_link, new_link))
+    action_pair_list = sorted(action_pair_list, key=lambda x:-len(x[0])) # 一定要先替换长的
+    for old_link, new_link in action_pair_list:
         new_text = new_text.replace(old_link, new_link)
     return new_text
 
@@ -106,6 +113,18 @@ def unwrap_math_content(html_content):
             new_text = new_text.replace(old_link, "\\(" +new_link[1:-1] + "\\)")
     return new_text
 
+def unwrap_html_link(html_content):
+    regex = HTML_LINK_BEGIN + r"[a-z0-9A-Z\=\+\-\/]+" + HTML_LINK_END
+    new_text = html_content
+    for match in re.finditer(regex, html_content):
+        old_link = (match.group(0))
+        new_link = old_link.replace(HTML_LINK_BEGIN, "").replace(HTML_LINK_END, "").strip()
+        new_link = base64.b64decode(new_link).decode("utf-8")
+        new_link = '<a href="%s">%s</a>' % (new_link, new_link)
+        new_text = new_text.replace(old_link, new_link)
+    return new_text
+
+
 # 为所有 markdown 文件制作 html 副本
 def create_all_html_file():
     for old_file in pub_dir_utils.get_all_markdown_file():
@@ -119,7 +138,8 @@ def create_all_html_file():
         markdown_content = wrap_math_content(markdown_content)
         html_content     = get_html_from_md(markdown_content) # 渲染 html
         html_content     = unwrap_math_content(html_content) # 渲染 html
-        markdown_content = unwrap_raw_dollar(html_content)
+        html_content     = unwrap_raw_dollar(html_content)
+        html_content     = unwrap_html_link(html_content)
         new_file = old_file[:-3] + ".html"
         open(new_file, "w", encoding="utf-8").write(html_content)
 
