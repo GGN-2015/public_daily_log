@@ -28,7 +28,6 @@ HTML_LINK_BEGIN    = generate_random_sequence(64)
 HTML_LINK_END      = generate_random_sequence(64)
 
 CDN = """
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 """
 
@@ -134,8 +133,8 @@ def unwrap_html_link(html_content):
     return new_text
 
 def get_menu_from_list(menu_list):
-    content = '<a href="/README.html">返回首页</a>\n'
-    content += '<section id="0"><h1>目录</h1></section>\n'
+    content = '<section id="0"><a href="/README.html">返回首页</a></section>\n'
+    content += '<h1>目录</h1>\n'
     for index, grade, value in menu_list:
         content += '<p style="margin-left: %dpx;"><a href="#%d">%s</a></p>\n' % (grade * 10, index, value)
     return content + "<hr>"
@@ -153,7 +152,6 @@ def html_make_title_menu_section(html_content): # 构建用于索引的目录
         menu_list.append((cnt, int(old_link[2]), old_link[4:-5]))
     menu_content = get_menu_from_list(menu_list)
     return new_text.replace("<body>", "<body>" + menu_content)
-
 
 # 为所有 markdown 文件制作 html 副本
 def create_all_html_file():
