@@ -133,6 +133,26 @@ def unwrap_html_link(html_content):
         new_text = new_text.replace(old_link, new_link)
     return new_text
 
+def get_menu_from_list(menu_list):
+    content = '<section id="0"><h1>目录</h1></section>\n'
+    for index, grade, value in menu_list:
+        content += '<p style="margin-left: %dpx;"><a href="#%d">%s</a></p>\n' % (grade * 10, index, value)
+    return content + "<hr>"
+
+def html_make_title_section(html_content): # 构建用于索引的目录
+    regex = r"<h\d>(.|\n)+?</h\d>"
+    new_text = html_content
+    cnt = 0
+    menu_list = []
+    for match in re.finditer(regex, html_content):
+        cnt += 1
+        old_link = match.group(0)
+        new_link = '<section id="%d">%s</section>\n' % (cnt, old_link)
+        new_text = new_text.replace(old_link, new_link)
+        menu_list.append((cnt, int(old_link[2]), old_link[4:-5]))
+    menu_content = get_menu_from_list(menu_list)
+    return new_text.replace("<body>", "<body>" + menu_content)
+
 
 # 为所有 markdown 文件制作 html 副本
 def create_all_html_file():
@@ -149,6 +169,7 @@ def create_all_html_file():
         html_content     = unwrap_math_content(html_content) # 渲染 html
         html_content     = unwrap_raw_dollar(html_content)
         html_content     = unwrap_html_link(html_content)
+        html_content     = html_make_title_section(html_content)
         new_file = old_file[:-3] + ".html"
         open(new_file, "w", encoding="utf-8").write(html_content)
 
