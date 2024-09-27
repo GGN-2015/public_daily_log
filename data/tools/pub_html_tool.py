@@ -39,6 +39,36 @@ def get_html_from_md(md_text):
 <html>
 <head>
     <meta charset="utf-8">
+    <style>
+        body {{
+        }}
+
+        /* style.css */
+        /* 当屏幕宽度大于高度时 */
+        @media (orientation: landscape) {{
+            body {{
+                max-width: 640px;
+                margin: 0 auto;
+            }}
+
+            pre, img {{
+                max-width: 640px;
+            }}
+        }}
+
+        /* 其他样式 - 默认竖屏 */
+        @media (orientation: portrait) {{
+            body {{
+                max-width: 1080px;
+                margin: 0 auto;
+                font-size: 48px;
+            }}
+
+            pre, img {{
+                max-width: 1080px;
+            }}
+        }}
+    </style>
     {CDN}
 </head>
 <body>
