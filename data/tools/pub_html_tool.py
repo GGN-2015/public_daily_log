@@ -134,12 +134,13 @@ def unwrap_html_link(html_content):
     return new_text
 
 def get_menu_from_list(menu_list):
-    content = '<section id="0"><h1>目录</h1></section>\n'
+    content = '<a href="/README.html">返回首页</a>\n'
+    content += '<section id="0"><h1>目录</h1></section>\n'
     for index, grade, value in menu_list:
         content += '<p style="margin-left: %dpx;"><a href="#%d">%s</a></p>\n' % (grade * 10, index, value)
     return content + "<hr>"
 
-def html_make_title_section(html_content): # 构建用于索引的目录
+def html_make_title_menu_section(html_content): # 构建用于索引的目录
     regex = r"<h\d>(.|\n)+?</h\d>"
     new_text = html_content
     cnt = 0
@@ -169,7 +170,7 @@ def create_all_html_file():
         html_content     = unwrap_math_content(html_content) # 渲染 html
         html_content     = unwrap_raw_dollar(html_content)
         html_content     = unwrap_html_link(html_content)
-        html_content     = html_make_title_section(html_content)
+        html_content     = html_make_title_menu_section(html_content)
         new_file = old_file[:-3] + ".html"
         open(new_file, "w", encoding="utf-8").write(html_content)
 
