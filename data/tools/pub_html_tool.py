@@ -172,5 +172,17 @@ def create_all_html_file():
         new_file = old_file[:-3] + ".html"
         open(new_file, "w", encoding="utf-8").write(html_content)
 
+def create_index_html():
+    new_index_html = pub_dir_utils.get_root_dir("index.html")
+    open(new_index_html, "w").write("""
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body></body>
+    <script>window.location.href="/README.html";</script>
+</html>
+""")
+
 if __name__ == "__main__":
     create_all_html_file()
+    create_index_html()
