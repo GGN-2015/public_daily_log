@@ -148,7 +148,7 @@ def html_make_title_menu_section(html_content): # 构建用于索引的目录
     for match in re.finditer(regex, html_content):
         cnt += 1
         old_link = match.group(0)
-        new_link = '<section id="%d">%s</section>\n' % (cnt, old_link)
+        new_link = '<section id="%d"><a href="#%d">%s</a><a href="#0">(返回顶部)</a></section>\n' % (cnt, cnt, old_link)
         new_text = new_text.replace(old_link, new_link)
         menu_list.append((cnt, int(old_link[2]), old_link[4:-5]))
     menu_content = get_menu_from_list(menu_list)
