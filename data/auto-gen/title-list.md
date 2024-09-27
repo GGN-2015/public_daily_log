@@ -1,9 +1,12 @@
 # 《`GGN_2015` 公开日志的标题索引》
 | 标题 | 链接 |
 | ---- | ---- |
+| 《2024 年 10 月公开日志》 | [2024-10_misc.md](../../data/misc/2024-10_misc.md) |
 | 《2024 年 9 月公开日志》 | [2024-09_misc.md](../../data/misc/2024-09_misc.md) |
 | 《Box-Muller 方法正确性证明》`2024-09-15` | [2024-09-15_box-muller.md](../../data/2024a-rand/2024-09-15_box-muller.md) |
 | 《LZS 来问了一个问题》`2024-09-20` | [2024-09-20_math-with-lzs.md](../../data/misc/2024-09-20_math-with-lzs.md) |
+| 《`GGN_2015` 在硕士生期间的工作日志》 | [buaa-vr-index.md](../../data/buaa-vr/buaa-vr-index.md) |
+| 《`GGN_2015` 拓扑学相关工作的公开日志》 | [jlu-top.md](../../data/other-work/jlu-top.md) |
 | 《`GGN_2015` 的公开日志》 | [README.md](../../README.md) |
 | 《`GGN_2015` 的公开日志中每日新增行数情况》 | [line-stat.md](../../data/auto-gen/line-stat.md) |
 | 《`GGN_2015` 的公开日志工具清单》 | [tools-index.md](../../data/tools/tools-index.md) |
@@ -14,9 +17,13 @@
 | 《games101》 课程笔记 | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) |
 | 《一道有趣的极限问题及其拓展》`2023-09-08` | [2023-09-08_math-with-hou.md](../../data/misc/2023-09-08_math-with-hou.md) |
 | 《二维高斯分布的特征函数》`2024-09-25` | [2024-09-25_gd.md](../../data/2024a-rand/2024-09-25_gd.md) |
+| 《关于 2024-09-27 计网实验的一些思考》 | [2024-09-25_think.md](../../data/2024a-netexp/2024-09-25_think.md) |
+| 《关于 MCVR 实验室网站的心路历程》 | [webpage-buaa-vr.md](../../data/buaa-vr/webpage-buaa-vr.md) |
 | 《关于如何让 ssh 带 x11 返回》`2024-09-13` | [2024-09-13_sshx.md](../../data/misc/2024-09-13_sshx.md) |
 | 《关于相关系数取值范围的证明》`2024-09-17` | [2024-09-17_corr.md](../../data/2024a-rand/2024-09-17_corr.md) |
 | 《关于错排公式与错排概率》`2024-09-15` | [2024-09-15_derange.md](../../data/2024a-rand/2024-09-15_derange.md) |
+| 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
+| 《扭结不变量区分能力报告》`2024-09-27` | [jlu-top-knot-report.md](../../data/other-work/jlu-top-knot-report.md) |
 | 《拉东变换的示例与实战》 `2024-09-18` | [2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md) |
 | 《机器学习》`2024-09-13` `(三)409` | [2024-09-13_2024a-ml.md](../../data/2024a-ml/2024-09-13_2024a-ml.md) |
 | 《机器学习》课程笔记 | [2024a-ml-index.md](../../data/2024a-ml/2024a-ml-index.md) |
@@ -26,11 +33,13 @@
 | 《科学计算可视化》课程笔记 | [2024a-visc-index.md](../../data/2024a-visc/2024a-visc-index.md) |
 | 《科技写作与报告》`2024-09-12` `B106` | [2024-09-12_2024a-engwri.md](../../data/2024a-engwri/2024-09-12_2024a-engwri.md) |
 | 《科技写作与报告》`2024-09-19` `B106` | [2024-09-19_2024a-engwri.md](../../data/2024a-engwri/2024-09-19_2024a-engwri.md) |
+| 《科技写作与报告》`2024-09-26` `B106` | [2024-09-26_2024a-engwri.md](../../data/2024a-engwri/2024-09-26_2024a-engwri.md) |
 | 《科技写作与报告》课程笔记 | [2024a-engwri-index.md](../../data/2024a-engwri/2024a-engwri-index.md) |
 | 《网络与信息安全》`2024-09-09` `A208` | [2024-09-09_2024a-netsec.md](../../data/2024a-netsec/2024-09-09_2024a-netsec.md) |
 | 《网络与信息安全》课程笔记 | [2024a-netsec-index.md](../../data/2024a-netsec/2024a-netsec-index.md) |
 | 《虚拟现实技术》`2024-09-12` `B202` | [2024-09-12_2024a-vr.md](../../data/2024a-vr/2024-09-12_2024a-vr.md) |
 | 《虚拟现实技术》`2024-09-19` `B202` | [2024-09-19_2024a-vr.md](../../data/2024a-vr/2024-09-19_2024a-vr.md) |
+| 《虚拟现实技术》`2024-09-26` `B202` | [2024-09-26_2024a-vr.md](../../data/2024a-vr/2024-09-26_2024a-vr.md) |
 | 《虚拟现实技术》课程笔记 | [2024a-vr-index.md](../../data/2024a-vr/2024a-vr-index.md) |
 | 《计算机网络与通信实验》`2024-09-11` `线上` | [2024-09-11_2024a-netexp.md](../../data/2024a-netexp/2024-09-11_2024a-netexp.md) |
 | 《计算机网络与通信实验》课程笔记 | [2024a-netexp-index.md](../../data/2024a-netexp/2024a-netexp-index.md) |
