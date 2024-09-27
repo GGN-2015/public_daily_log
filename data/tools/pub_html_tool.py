@@ -11,6 +11,15 @@ def generate_random_sequence(length):
     random_sequence = ''.join(secrets.choice(characters) for _ in range(length)) # 使用 secrets.choice 来生成随机序列
     return random_sequence
 
+def pre_scan(content: str) -> str: # 有些行前面有必须要删除的先导空格，会影响标题的识别
+    new_content = ""
+    for line in content.split("\n"):
+        if line.lstrip().startswith("#"):
+            new_content += line.lstrip() + "\n"
+        else:
+            new_content += line + "\n"
+    return new_content
+
 # 中介常量：必须是随机的字母数字序列
 RAW_DOLLAR         = generate_random_sequence(64)
 MATH_CONTENT_BEGIN = generate_random_sequence(64)
@@ -130,7 +139,7 @@ def create_all_html_file():
     for old_file in pub_dir_utils.get_all_markdown_file():
         pub_mylog.log("- <<1;34[INFO]>>: creating html file for <<1;32[%s]>> ...\n" % old_file)
         assert old_file.endswith(".md")
-        markdown_content = open(old_file, encoding="utf-8").read()
+        markdown_content = pre_scan(open(old_file, encoding="utf-8").read())
         markdown_content = wrap_http_link(markdown_content) # 渲染管线
         markdown_content = render_del(markdown_content)
         markdown_content = rename_link(markdown_content)
