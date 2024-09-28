@@ -23,6 +23,7 @@
 | 《关于相关系数取值范围的证明》`2024-09-17` | [2024-09-17_corr.md](../../data/2024a-rand/2024-09-17_corr.md) |
 | 《关于错排公式与错排概率》`2024-09-15` | [2024-09-15_derange.md](../../data/2024a-rand/2024-09-15_derange.md) |
 | 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
+| 《单纯型算法复习》`2024-09-28` | [2024-09-28_simplex.md](../../data/misc/2024-09-28_simplex.md) |
 | 《扭结不变量区分能力报告》`2024-09-27` | [jlu-top-knot-report.md](../../data/other-work/jlu-top-knot-report.md) |
 | 《拉东变换的示例与实战》 `2024-09-18` | [2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md) |
 | 《机器学习》`2024-09-13` `(三)409` | [2024-09-13_2024a-ml.md](../../data/2024a-ml/2024-09-13_2024a-ml.md) |
