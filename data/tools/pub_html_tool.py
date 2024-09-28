@@ -40,10 +40,6 @@ def get_html_from_md(md_text):
 <head>
     <meta charset="utf-8">
     <style>
-        body {{
-        }}
-
-        /* style.css */
         /* 当屏幕宽度大于高度时 */
         @media (orientation: landscape) {{
             body {{
@@ -183,10 +179,20 @@ def html_make_title_menu_section(html_content): # 构建用于索引的目录
     menu_content = get_menu_from_list(menu_list)
     return new_text.replace("<body>", "<body>" + menu_content)
 
+def save_file(new_file: str, html_content: str): # 减少硬盘写入次数
+    try:
+        old_content = open(new_file, "r", encoding="utf-8").read()
+    except:
+        old_content = None
+    if old_content is None or old_content.strip() != html_content.strip():
+        pub_mylog.log("- <<1;34[INFO]>>: \033[1;33mcreating\033[0m html file <<1;32[%s]>> ...\n" % new_file)
+        open(new_file, "w", encoding="utf-8").write(html_content)
+    else:
+        pub_mylog.log("- <<1;34[INFO]>>: html file <<1;32[%s]>> \033[1;35munchanged\033[0m ...\n" % new_file)
+
 # 为所有 markdown 文件制作 html 副本
 def create_all_html_file():
     for old_file in pub_dir_utils.get_all_markdown_file():
-        pub_mylog.log("- <<1;34[INFO]>>: creating html file for <<1;32[%s]>> ...\n" % old_file)
         assert old_file.endswith(".md")
         markdown_content = pre_scan(open(old_file, encoding="utf-8").read())
         markdown_content = wrap_http_link(markdown_content) # 渲染管线
@@ -200,7 +206,7 @@ def create_all_html_file():
         html_content     = unwrap_html_link(html_content)
         html_content     = html_make_title_menu_section(html_content)
         new_file = old_file[:-3] + ".html"
-        open(new_file, "w", encoding="utf-8").write(html_content)
+        save_file(new_file, html_content)
 
 def create_index_html():
     new_index_html = pub_dir_utils.get_root_dir("index.html")
