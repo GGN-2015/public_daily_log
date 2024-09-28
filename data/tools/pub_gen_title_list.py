@@ -5,6 +5,9 @@ import os
 
 def get_title_from_markdown(filepath): # 获取标题栏信息
     content = open(filepath, "r", encoding="utf-8").read().strip().split("\n")
+    if len(content) == 0 or len(content[0]) == 0:
+        pub_mylog.log("- <<1;33[WARN]>>: file `<<1;33[%s]>>` has empty title line." % filepath)
+        return
     if not content[0].startswith("# "):
         pub_mylog.log("- <<1;31[ERROR]>>: file `<<1;33[%s]>>` does not has a title." % filepath)
         assert False
@@ -36,6 +39,7 @@ def create_title_list_file():
     except:
         pass
     content = gen_title_list_content()
+    pub_mylog.log("- <<1;32[INFO]>>: generating title list file ...")
     open(filepath, "w", encoding="utf-8").write(content)
 
 if __name__ == "__main__":
