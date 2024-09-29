@@ -8,3 +8,9 @@
 
 - 谢惠民数学分析习题集：[math-xiehuimin.md](../../data/books/math-xiehuimin.md)
 
+## 哲学类
+
+- 免责声明：`GGN_2015` 并不是哲学专业学生，也没接受过相应训练，不能保证以下内容的正确性。
+  - 以下内容仅作为个人学习日志使用。
+- 家庭、私有制和国家的起源：[engels-ofpps.md](../../data/books/engels-ofpps.md)
+
