@@ -1,24 +1,31 @@
 import subprocess
+import os
 import functools
 import datetime
+import pub_dir_utils
 
 def run_command(cmd: list):
-    fp = subprocess.Popen(cmd, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
-    stdout, stderr = fp.communicate("")
-    stdout = stdout.decode("utf-8")
-    stderr = stderr.decode("utf-8")
-    returncode = fp.wait()
+    old_cwd = os.getcwd()
+    os.chdir(pub_dir_utils.get_root_dir())
+    try:
+        fp = subprocess.Popen(cmd, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
+        stdout, stderr = fp.communicate("")
+        stdout = stdout.decode("utf-8")
+        stderr = stderr.decode("utf-8")
+        returncode = fp.wait()
+    except:
+        os.chdir(old_cwd) # 恢复工作目录
     return (returncode, stdout, stderr)
 
 @functools.cache
 def get_commit_list():
-    ret, out, err = run_command(["git", "log", "--pretty=format:%H %s"])
+    ret, out, err = run_command(["git", "log", "--pretty=format:'%H %s'"])
     arr = []
     for term in out.split("\n"):
         term = term.strip()
         if term == "": continue # 跳过空行
         hash_code, commit_msg = (term.split(maxsplit=1))
-        arr.append((hash_code, commit_msg))
+        arr.append((hash_code.replace("\'", ""), commit_msg.replace("\'", "")))
     return arr
 
 @functools.cache
@@ -34,7 +41,7 @@ def get_last_commit_of_a_day(date_string) -> str: # 未找到返回初始 commit
         hash_code, msg_now = line
         if msg_now == date_string:
             return hash_code
-    return get_last_commit_of_a_day("Initial commit")
+    return "7409da04bf58e9356424c63691d7fb2127b4ef63" # Initial Commit
 
 def compare_commits(commit_hash_from, commit_hash_to): # 对比不同 commit 之间的差异
     ret, out, err = run_command(["git", "diff", "--shortstat", commit_hash_from, commit_hash_to])
