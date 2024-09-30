@@ -40,9 +40,14 @@ def get_html_from_md(md_text):
 <head>
     <meta charset="utf-8">
     <style>
+        .math {{
+            display: block;
+            overflow-wrap: break-word;
+        }}
+
         /* 当屏幕宽度大于高度时 */
         @media (orientation: landscape) {{
-            body {{
+            .math-container, body {{
                 max-width: 640px;
                 margin: 0 auto;
             }}
@@ -54,7 +59,7 @@ def get_html_from_md(md_text):
 
         /* 其他样式 - 默认竖屏 */
         @media (orientation: portrait) {{
-            body {{
+            .math-container, body {{
                 max-width: 1080px;
                 margin: 0 auto;
                 font-size: 48px;
