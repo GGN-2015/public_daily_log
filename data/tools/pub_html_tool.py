@@ -136,6 +136,16 @@ def unwrap_raw_dollar(html_content):
     new_text = new_text.replace(RAW_DOLLAR, "$")
     return new_text
 
+# 特殊处理 latex 中的 text 字段
+def process_text_wrap(html_content):
+    regex = r"\\text{.*?}"
+    output_val = html_content
+    for match in re.finditer(regex, html_content):
+        old_content = match.group(0)
+        new_content = old_content.replace(r"\;", " ").replace(r"\lt", r"} \lt \text{").replace(r"\gt", r"} \gt \text{")
+        output_val = output_val.replace(old_content, new_content)
+    return output_val
+
 # 从保护数据中反解出数学块内容
 def unwrap_math_content(html_content):
     regex = MATH_CONTENT_BEGIN + r"[a-z0-9A-Z\=\+\-\/]+" + MATH_CONTENT_END
@@ -144,7 +154,7 @@ def unwrap_math_content(html_content):
         old_link = (match.group(0))
         new_link = old_link.replace(MATH_CONTENT_BEGIN, "").replace(MATH_CONTENT_END, "").strip()
         new_link = base64.b64decode(new_link).decode("utf-8")
-        new_link = new_link.replace("<", r"\lt ").replace(">", r"\gt ")
+        new_link = process_text_wrap(new_link.replace("<", r" \lt ").replace(">", r" \gt "))
         if new_link.startswith("$$"):
             new_text = new_text.replace(old_link, new_link)
         else:

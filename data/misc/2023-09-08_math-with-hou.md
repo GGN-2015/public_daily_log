@@ -435,12 +435,7 @@ A_15 = 0.317602
 #### 4.3.1 单调性
 
 > 引理：指数函数的单调性
-> $$
-> \begin{aligned}
-> &\text{suppose}\; 0<a<1\\
-> & x_1 < x_2 \Leftrightarrow a^{x_1} > a^{x_2}
-> \end{aligned}
-> $$
+> $$\begin{aligned}&\text{suppose}\; 0<a<1\\& x_1 < x_2 \Leftrightarrow a^{x_1} > a^{x_2}\end{aligned}$$
 
 首先考虑奇数项，$A_1 = a, A_3 = a^{a^a}$，我们能够证明 $A_1 < A_3$。
 $$
