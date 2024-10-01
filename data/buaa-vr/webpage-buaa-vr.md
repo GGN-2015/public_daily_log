@@ -7,6 +7,15 @@
 - `2024-10-01` 每次提 PR 之前一定要记得现删除空 `baseof.html` 文件
   - `rm ./layouts/_default/baseof.html`
 - `2024-10-01` 诶，github 上的构建脚本挂了？为什么我本地看起来没问题的网站 github 上面构建的系统却使用了原始的 README.md 作为主页。
+  - 试图把空的 `baseof.html` 放上去，并且将 github 上的 hugo 版本与我本地的 hugo 版本设置为一致
+  - 结果效果还是不对，github pages 上看到的总是 README.md 页面作为主页
+  - 我想想主页来源于哪里？
+  - 好，我一顿爆改 github actions 然后让他在构建失败的条件下也能 deploy
+  - 用这种极其扭曲的方式实现了构建
+  - 我个人觉得正确的做法压根就不应该用这种 out dated 的框架，我觉得应该会有这个框架的新版本内容使得不再有 .Site.Google 的问题
+  - 但是既然现在以这种扭曲的方式解决了问题，总之还是比没有解决要好的
+    - 以后出了锅以后再说
+    - 长久之计应该是用一个新一点的模板
 
 ## 2024-09
 
@@ -76,7 +85,7 @@
 - `2024-09-25` 给出一条可供参考的本地启动路线
 
 ```bash
-rm ./layouts/_default/baseof.html
+rm -f ./layouts/_default/baseof.html
 hugo --cleanDestinationDir # 无视报错
 hugo                       # 无视报错
 touch ./layouts/_default/baseof.html
