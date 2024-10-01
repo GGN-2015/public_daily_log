@@ -2,6 +2,8 @@
 
 ## 置顶信息
 
+- 如何构建：
+
 ```bash
 rm -f ./layouts/_default/baseof.html
 hugo --cleanDestinationDir # 无视报错
@@ -10,6 +12,9 @@ touch ./layouts/_default/baseof.html
 hugo                            # 没有报错
 hugo server --disableFastRender # 没有报错
 ```
+
+- 注意事项
+  - 每次 pull request 合并之后需要手动运行一次
 
 ## 2024-10
 
