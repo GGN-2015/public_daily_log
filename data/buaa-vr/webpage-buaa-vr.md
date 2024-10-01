@@ -1,5 +1,16 @@
 # 《关于 MCVR 实验室网站的心路历程》
 
+## 置顶信息
+
+```bash
+rm -f ./layouts/_default/baseof.html
+hugo --cleanDestinationDir # 无视报错
+hugo                       # 无视报错
+touch ./layouts/_default/baseof.html
+hugo                            # 没有报错
+hugo server --disableFastRender # 没有报错
+```
+
 ## 2024-10
 
 - `2024-10-01` 终于抽出时间来搞这个了，争取今天一天之内把所有信息录入完成。
@@ -20,6 +31,12 @@
   - 所有文献位于 `./content/publication` 每个文献占据一个文件夹
   - 其中可以提供，代码链接，数据集链接，视频，BibTex Citation，等等内容
   - 感觉工作量也不小，打算先把在校生发表的论文整理出来
+- `2024-10-01` 行，今天先干到这里，整理一下工作进度
+  - 完成了在校生的论文整理工作
+  - 其中还有若干个本地视频文件，我想想有没有什么比较合适的处理思路（毕竟把视频放到 github repo 里不太合适）
+  - 还有很多毕业生的工作需要整理
+  - 还没有做对照片的检查工作
+  - 还没有得到每个人的邮箱
 
 ## 2024-09
 
