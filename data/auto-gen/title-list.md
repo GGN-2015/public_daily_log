@@ -17,6 +17,7 @@
 | 《`GGN_2015` 的睡眠情况》 | [sleep-time.md](../../data/stat/sleep-time.md) |
 | 《games101》 课程笔记 | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) |
 | 《一道有趣的极限问题及其拓展》`2023-09-08` | [2023-09-08_math-with-hou.md](../../data/misc/2023-09-08_math-with-hou.md) |
+| 《与 ZKR 大佬讨论日常生活规范》`2024-10-04` | [2024-10-04_zkr-std.md](../../data/misc/2024-10-04_zkr-std.md) |
 | 《二维高斯分布的特征函数》`2024-09-25` | [2024-09-25_gd.md](../../data/2024a-rand/2024-09-25_gd.md) |
 | 《关于 2024-09-27 计网实验的一些思考》 | [2024-09-25_think.md](../../data/2024a-netexp/2024-09-25_think.md) |
 | 《关于 MCVR 实验室网站的心路历程》 | [webpage-buaa-vr.md](../../data/buaa-vr/webpage-buaa-vr.md) |
