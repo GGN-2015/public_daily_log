@@ -23,6 +23,7 @@
 | 《关于 MCVR 实验室网站的心路历程》 | [webpage-buaa-vr.md](../../data/buaa-vr/webpage-buaa-vr.md) |
 | 《关于双线性插值的证明》`2024-09-30` | [2024-09-30_bilinear.md](../../data/2024a-visc/2024-09-30_bilinear.md) |
 | 《关于如何让 ssh 带 x11 返回》`2024-09-13` | [2024-09-13_sshx.md](../../data/misc/2024-09-13_sshx.md) |
+| 《关于理解尊重的解释》`2024-10-04` | [2024-10-04_respect.md](../../data/misc/2024-10-04_respect.md) |
 | 《关于相关系数取值范围的证明》`2024-09-17` | [2024-09-17_corr.md](../../data/2024a-rand/2024-09-17_corr.md) |
 | 《关于错排公式与错排概率》`2024-09-15` | [2024-09-15_derange.md](../../data/2024a-rand/2024-09-15_derange.md) |
 | 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
