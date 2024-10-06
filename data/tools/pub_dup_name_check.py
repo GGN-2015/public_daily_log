@@ -8,6 +8,9 @@ def dup_name_dict() -> dict: # 获得重名检查 dict
     dic = {}
     for file in pub_dir_utils.get_all_file_in_this_project():
         basename = os.path.basename(file)
+        dirnow   = os.path.dirname(file)
+        if dirnow == pub_dir_utils.get_root_dir(): # 根目录下的直接文件不接受统计
+            continue
         if dic.get(basename) is None: # 初始化列表
             dic[basename] = []
         dic[basename].append(file)
