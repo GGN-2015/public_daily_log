@@ -203,7 +203,8 @@ def save_file(new_file: str, html_content: str): # 减少硬盘写入次数
         pub_mylog.log("- <<1;34[INFO]>>: \033[1;33mcreating\033[0m html file <<1;32[%s]>> ...\n" % new_file)
         open(new_file, "w", encoding="utf-8").write(html_content)
     else:
-        pub_mylog.log("- <<1;34[INFO]>>: html file <<1;32[%s]>> \033[1;35munchanged\033[0m ...\n" % new_file)
+        # pub_mylog.log("- <<1;34[INFO]>>: html file <<1;32[%s]>> \033[1;35munchanged\033[0m ...\n" % new_file)
+        pass
 
 # 为所有 markdown 文件制作 html 副本
 def create_all_html_file():
