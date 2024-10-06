@@ -21,62 +21,92 @@ def pre_scan(content: str) -> str: # 有些行前面有必须要删除的先导�
     return new_content
 
 # 中介常量：必须是随机的字母数字序列
-RAW_DOLLAR         = generate_random_sequence(64)
-MATH_CONTENT_BEGIN = generate_random_sequence(64)
-MATH_CONTENT_END   = generate_random_sequence(64)
-HTML_LINK_BEGIN    = generate_random_sequence(64)
-HTML_LINK_END      = generate_random_sequence(64)
+RAW_DOLLAR                     = generate_random_sequence(64)
+MATH_CONTENT_BEGIN             = generate_random_sequence(64)
+MATH_CONTENT_END               = generate_random_sequence(64)
+HTML_LINK_BEGIN                = generate_random_sequence(64)
+HTML_LINK_END                  = generate_random_sequence(64)
+OFFCANVAS_CONTENT_PALCE_HOLDER = generate_random_sequence(64)
 
 CDN = """
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+"""
+
+NAVBAR = """
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" style="background-color: rgb(34, 139, 34) !important;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/README.html">返回首页</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">目录</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+"""
+
+OFFCANVAS = f"""
+<div class="offcanvas offcanvas-start" data-bs-backdrop="true" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">目录</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    {OFFCANVAS_CONTENT_PALCE_HOLDER}
+  </div>
+</div>
 """
 
 # 用于生成指定 markdown 文件的 html 版本
-def get_html_from_md(md_text):
+def get_html_from_md(md_text: str):
     html = markdown2.markdown(md_text, extras=['mathjax', "fenced-code-blocks", "code-friendly", 'tables'])
+    html, offcanvas_content = html_make_title_menu_section(html)
     html_with_mathjax = f"""
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <style>
-        .math {{
-            display: block;
-            overflow-wrap: break-word;
-        }}
-
-        /* 当屏幕宽度大于高度时 */
-        @media (orientation: landscape) {{
-            .math-container, body {{
-                max-width: 640px;
-                margin: 0 auto;
-            }}
-
-            pre, img {{
-                max-width: 640px;
-            }}
-        }}
-
-        /* 其他样式 - 默认竖屏 */
-        @media (orientation: portrait) {{
-            .math-container, body {{
-                max-width: 1080px;
-                margin: 0 auto;
-                font-size: 48px;
-            }}
-
-            pre, img {{
-                max-width: 1080px;
-            }}
-        }}
-    </style>
-    {CDN}
 </head>
-<body>
-    {html}
+<body data-bs-theme="dark">
+    {NAVBAR}
+    {OFFCANVAS}
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        {html}
+    </div>
+    {CDN}
+    <script>
+        function removeHashAndAfter(str) {{
+            const hashIndex = str.indexOf('#');
+            if (hashIndex !== -1) {{
+                return str.slice(0, hashIndex);
+            }}
+            return str;
+        }}
+        function jump_to_lable(label_id) {{
+            window.location.href = removeHashAndAfter(window.location.href) + "#scrollspyHeading" + label_id;
+        }}
+        const myOffcanvas = document.getElementById('offcanvasScrolling')
+        myOffcanvas.addEventListener('hidden.bs.offcanvas', event => {{
+            location.reload();
+        }})
+    </script>
 </body>
 </html>
-    """
+    """.replace(OFFCANVAS_CONTENT_PALCE_HOLDER, offcanvas_content)
     return html_with_mathjax
 
 # 封装 http 和 https 链接
@@ -174,25 +204,27 @@ def unwrap_html_link(html_content):
     return new_text
 
 def get_menu_from_list(menu_list):
-    content = '<section id="0"><a href="/README.html">返回首页</a></section>\n'
-    content += '<h1>目录</h1>\n'
+    content = ''
     for index, grade, value in menu_list:
-        content += '<p style="margin-left: %dpx;"><a href="#%d">%s</a></p>\n' % (grade * 10, index, value)
-    return content + "<hr>"
+        content += '<a style="margin-left: %dpx;" class="nav-link" onclick="jump_to_lable(%d)">%s</a>' % (grade * 10, index, value)
+    return content
 
-def html_make_title_menu_section(html_content): # 构建用于索引的目录
+def html_make_title_menu_section(html_content: str): # 构建用于索引的目录
     regex = r"<h\d>(.|\n)+?</h\d>"
-    new_text = html_content
+    new_html = html_content
     cnt = 0
     menu_list = []
     for match in re.finditer(regex, html_content):
         cnt += 1
-        old_link = match.group(0)
-        new_link = '<section id="%d"><a href="#%d">%s</a><a href="#0">(返回顶部)</a></section>\n' % (cnt, cnt, old_link)
-        new_text = new_text.replace(old_link, new_link)
-        menu_list.append((cnt, int(old_link[2]), old_link[4:-5]))
+        old_link      = match.group(0)
+        title_content = old_link[4:-5]
+        title_level   = int(old_link[2])
+        title_index   = cnt
+        new_link      = '<h%d id="scrollspyHeading%d">%s</h%d>' % (title_level, title_index, title_content, title_level)
+        new_html = new_html.replace(old_link, new_link)
+        menu_list.append((title_index, title_level, title_content))
     menu_content = get_menu_from_list(menu_list)
-    return new_text.replace("<body>", "<body>" + menu_content)
+    return new_html, menu_content
 
 def save_file(new_file: str, html_content: str): # 减少硬盘写入次数
     try:
@@ -220,7 +252,6 @@ def create_all_html_file():
         html_content     = unwrap_math_content(html_content) # 渲染 html
         html_content     = unwrap_raw_dollar(html_content)
         html_content     = unwrap_html_link(html_content)
-        html_content     = html_make_title_menu_section(html_content)
         new_file = old_file[:-3] + ".html"
         save_file(new_file, html_content)
 
