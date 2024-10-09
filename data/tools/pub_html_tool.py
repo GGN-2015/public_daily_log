@@ -71,6 +71,17 @@ OFFCANVAS = f"""
 </div>
 """
 
+STYLE="""
+<style>
+    blockquote {
+        border-left: 4px solid #007bff;
+        padding-left: 1rem;
+        border-radius: 0.25rem;
+        font-style: italic;
+    }
+</style>
+"""
+
 # 用于生成指定 markdown 文件的 html 版本
 def get_html_from_md(md_text: str):
     html = markdown2.markdown(md_text, extras=['mathjax', "fenced-code-blocks", "code-friendly", 'tables'])
@@ -80,6 +91,7 @@ def get_html_from_md(md_text: str):
 <html>
 <head>
     <meta charset="utf-8">
+    {STYLE}
 </head>
 <body data-bs-theme="dark">
     {NAVBAR}
