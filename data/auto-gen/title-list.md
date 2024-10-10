@@ -21,6 +21,7 @@
 | 《一道有趣的极限问题及其拓展》`2023-09-08` | [2023-09-08_math-with-hou.md](../../data/misc/2023-09-08_math-with-hou.md) |
 | 《与 ZKR 大佬讨论日常生活规范》`2024-10-04` | [2024-10-04_zkr-std.md](../../data/misc/2024-10-04_zkr-std.md) |
 | 《二维高斯分布的特征函数》`2024-09-25` | [2024-09-25_gd.md](../../data/2024a-rand/2024-09-25_gd.md) |
+| 《五笔学习》`2024-10-10` | [wang-code.md](../../data/other-work/wang-code.md) |
 | 《关于 2024-09-27 计网实验的一些思考》 | [2024-09-25_think.md](../../data/2024a-netexp/2024-09-25_think.md) |
 | 《关于 MCVR 实验室网站的心路历程》 | [webpage-buaa-vr.md](../../data/buaa-vr/webpage-buaa-vr.md) |
 | 《关于双线性插值的证明》`2024-09-30` | [2024-09-30_bilinear.md](../../data/2024a-visc/2024-09-30_bilinear.md) |
@@ -29,7 +30,7 @@
 | 《关于相关系数取值范围的证明》`2024-09-17` | [2024-09-17_corr.md](../../data/2024a-rand/2024-09-17_corr.md) |
 | 《关于错排公式与错排概率》`2024-09-15` | [2024-09-15_derange.md](../../data/2024a-rand/2024-09-15_derange.md) |
 | 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
-| 《单纯型算法复习》`2024-09-28` | [2024-09-28_simplex.md](../../data/misc/2024-09-28_simplex.md) |
+| 《单纯形算法复习》`2024-09-28` | [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md) |
 | 《家庭、私有制与国家的起源》阅读笔记 | [engels-ofpps.md](../../data/books/engels-ofpps.md) |
 | 《扭结不变量区分能力报告》`2024-09-27` | [jlu-top-knot-report.md](../../data/other-work/jlu-top-knot-report.md) |
 | 《拉东变换的示例与实战》 `2024-09-18` | [2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md) |
