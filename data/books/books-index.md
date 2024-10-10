@@ -7,6 +7,7 @@
 ## 数学类
 
 - 谢惠民数学分析习题集：[math-xiehuimin.md](../../data/books/math-xiehuimin.md)
+- `2024-09-28` 《单纯形算法复习》 [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md)
 
 ## 哲学类
 
