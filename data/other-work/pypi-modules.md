@@ -17,6 +17,8 @@
 
 ## 构建过程
 
+- 选个好名字，到 https://pypi.org/search/ 上进行查询，看看是有重名包
+  - 一般来说，如果有名字冲突，在 `twine` 上传时会遇到报错
 - 在指定名子的子目录中编写代码 `__init__.py` 和测试
 - 编写 `MANIFEST.IN` 以及 `pyproject.toml`
   - `pyproject.toml` 指明版本号，保证同一版本号在上传时仅仅使用一次，使用语义化版本控制
