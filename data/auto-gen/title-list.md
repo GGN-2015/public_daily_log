@@ -7,6 +7,7 @@
 | 《Box-Muller 方法正确性证明》`2024-09-15` | [2024-09-15_box-muller.md](../../data/2024a-rand/2024-09-15_box-muller.md) |
 | 《LZS 来问了一个问题》`2024-09-20` | [2024-09-20_math-with-lzs.md](../../data/misc/2024-09-20_math-with-lzs.md) |
 | 《`GGN_2015` 在硕士生期间的工作日志》 | [buaa-vr-index.md](../../data/buaa-vr/buaa-vr-index.md) |
+| 《`GGN_2015` 打包的一些 pypi 包》 | [pypi-modules.md](../../data/other-work/pypi-modules.md) |
 | 《`GGN_2015` 拓扑学相关工作的公开日志》 | [jlu-top.md](../../data/other-work/jlu-top.md) |
 | 《`GGN_2015` 的公开日志》 | [README.md](../../README.md) |
 | 《`GGN_2015` 的公开日志中每日新增行数情况》 | [line-stat.md](../../data/auto-gen/line-stat.md) |

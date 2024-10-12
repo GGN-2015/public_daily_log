@@ -1,0 +1,32 @@
+# 《`GGN_2015` 打包的一些 pypi 包》
+
+- 总览 https://pypi.org/user/GGN_2015/
+- `GGN_2015` 在制作 pypi 包时应尽可能使用英文编写 README 文档
+
+## 注意事项
+
+- 使用 `twine` 前要提前配置 `cat ~/.pypirc`
+  - 先去 https://pypi.org/manage/account/ 生产 `API token`
+  - 然后修改 `~/.pypirc` 的内容为
+
+```toml
+[pypi]
+  username = __token__
+  password = <"pypi-" 开头的 API token>
+```
+
+## 构建过程
+
+- 在指定名子的子目录中编写代码 `__init__.py` 和测试
+- 编写 `MANIFEST.IN` 以及 `pyproject.toml`
+  - `pyproject.toml` 指明版本号，保证同一版本号在上传时仅仅使用一次，使用语义化版本控制
+  - `MANIFEST.IN` 指明哪些文件应该在打包时被忽略
+- 执行 `python -m build` 进行构建
+- 执行 `twine upload dist/*` 进行上传
+
+## `GGN_2015` 目前制作的一些包
+
+- 远程命令发送：https://pypi.org/project/neko-rexec/
+- 发文件拆分为片段：https://pypi.org/project/cuffers/
+- 简单多线程加速：https://pypi.org/project/mptrolley/
+
