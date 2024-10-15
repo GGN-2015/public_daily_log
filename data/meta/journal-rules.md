@@ -6,6 +6,7 @@
    1. 依照《`GGN_2015` 的日常生活规范》`v2024-09-10` 中条例 `7.1.5` 提供的精神指引，`GGN_2015` 决定编写此文档。
       1. 《`GGN_2015` 的日常生活规范》请参照 https://github.com/GGN-2015/life_standard
       2. 为了便于公开查阅，本项目中包含了上述项目一个副本 [life-standard.md](../../data/auto-gen/life-standard.md)
+      3. `2024-10-15` 编写 《`GGN_2015` 的建议性规范合集》 [rec-std-index.md](../../data/rec-std/rec-std-index.md)。
    2. 错误反馈：
       1. 文章中的任何谬误欢迎反馈给 `premierbob AT qq.com`，您的帮助是对作者莫大的支持。
 2. `GGN_2015` 编写此日志的主要目的如下：

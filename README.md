@@ -6,7 +6,7 @@
 
 ## 1.内容索引
 
-- 日志规则：[journal-rules.md](./data/meta/journal-rules.md)
+- 规则相关：[journal-rules.md](./data/meta/journal-rules.md)
 - 课程笔记：[course-code.md](./data/meta/course-code.md)
 - 杂项索引：[misc-index.md](./data/misc/misc-index.md)
 - 读书笔记：[books-index.md](./data/books/books-index.md)
