@@ -18,6 +18,7 @@
 | 科技写作与报告             | [2024a-engwri-index.md](../../data/2024a-engwri/2024a-engwri-index.md) |                          |
 | ~~机器学习~~               | ~~[2024a-ml-index.md](../../data/2024a-ml/2024a-ml-index.md)~~ | 软件学院开设，**已退课** |
 | games101                   | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) | 线上课程                 |
+| 新时代中国特色社会主义     | [2024a-chi-cha-soc-index.md](../../data/2024a-chi-cha-soc/2024a-chi-cha-soc-index.md) | 总共四节课               |
 
 <img src="../../blob/img/2024a-timetable.png">
 
