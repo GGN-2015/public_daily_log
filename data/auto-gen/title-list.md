@@ -14,6 +14,7 @@
 | 《`GGN_2015` 的公开日志工具清单》 | [tools-index.md](../../data/tools/tools-index.md) |
 | 《`GGN_2015` 的公开日志规则》 | [journal-rules.md](../../data/meta/journal-rules.md) |
 | 《`GGN_2015` 的公开统计数据》 | [stat-index.md](../../data/stat/stat-index.md) |
+| 《`GGN_2015` 的建议性规范合集》`2024-10-15` | [rec-std-index.md](../../data/rec-std/rec-std-index.md) |
 | 《`GGN_2015` 的日常生活规范》 | [life-standard.md](../../data/auto-gen/life-standard.md) |
 | 《`GGN_2015` 的睡眠情况》 | [sleep-time.md](../../data/stat/sleep-time.md) |
 | 《games101》 课程笔记 | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) |
@@ -35,6 +36,8 @@
 | 《家庭、私有制与国家的起源》阅读笔记 | [engels-ofpps.md](../../data/books/engels-ofpps.md) |
 | 《扭结不变量区分能力报告》`2024-09-27` | [jlu-top-knot-report.md](../../data/other-work/jlu-top-knot-report.md) |
 | 《拉东变换的示例与实战》 `2024-09-18` | [2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md) |
+| 《新时代中国特色社会主义》`2024-10-15` `主M102` | [2024-10-15_2024a-chi-cha-soc.md](../../data/2024a-chi-cha-soc/2024-10-15_2024a-chi-cha-soc.md) |
+| 《新时代中国特色社会主义》课程笔记 | [2024a-chi-cha-soc-index.md](../../data/2024a-chi-cha-soc/2024a-chi-cha-soc-index.md) |
 | 《机器学习》`2024-09-13` `(三)409` | [2024-09-13_2024a-ml.md](../../data/2024a-ml/2024-09-13_2024a-ml.md) |
 | 《机器学习》课程笔记 | [2024a-ml-index.md](../../data/2024a-ml/2024a-ml-index.md) |
 | 《杂项索引》 | [misc-index.md](../../data/misc/misc-index.md) |
