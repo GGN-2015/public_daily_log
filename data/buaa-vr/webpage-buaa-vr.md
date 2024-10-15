@@ -14,7 +14,8 @@ hugo server --disableFastRender # 没有报错
 ```
 
 - 注意事项
-  - 每次 pull request 合并之后需要手动运行一次
+  - 每次 pull request 合并之后需要手动运行一次 `publish workflow`
+  - https://github.com/vr-pan-junjun/vr-pan-junjun.github.io/actions/workflows/publish.yaml
 
 ## 2024-10
 
@@ -48,6 +49,8 @@ hugo server --disableFastRender # 没有报错
 - `2024-10-06` 计划今天把所有的论文整理上去。
   - 好，完工了。
 - `2024-10-12` 上传了三个在校生视频到 youtube.
+- `2024-10-15` 视频上传 youtube 已经全部完成，并且全部添加到博客中。
+  - 还有一些比较大的数据集或者代码我还得具体想想。
 
 ## 2024-09
 
