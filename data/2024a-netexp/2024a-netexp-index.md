@@ -94,3 +94,7 @@
 >
 > `2024-10-10` **这个实验我还没做！**
 
+14. `2024-10-17` 为了上传实验材料，下载了 FileZilla
+    1. 字符编码问题：https://help.aliyun.com/zh/cloud-web-hosting/support/using-filezilla-garbled-words-for-connection-to-the-site
+    2. 你别说，修好了字符集问题后，还真能用
+
