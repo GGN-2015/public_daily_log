@@ -72,6 +72,7 @@
 | 《随机过程理论》课程笔记 | [2024a-rand-index.md](../../data/2024a-rand/2024a-rand-index.md) |
 | 《随机过程理论的课后习题（第一章）》`2024-10-03` | [2024-10-03_rand-ex.md](../../data/2024a-rand/2024-10-03_rand-ex.md) |
 | 《验证中心极限定理》`2024-09-25` | [2024-09-25_cenlim.md](../../data/2024a-rand/2024-09-25_cenlim.md) |
+| 《骨肿瘤手术规划项目》 | [bone-tumor-buaa-vr.md](../../data/buaa-vr/bone-tumor-buaa-vr.md) |
 | 《高性能计算机体系结构和设计》`2024-09-10` `A208` | [2024-09-10_2024a-hpcs.md](../../data/2024a-hpcs/2024-09-10_2024a-hpcs.md) |
 | 《高性能计算机体系结构和设计》`2024-09-24` `A208` | [2024-09-24_2024a-hpcs.md](../../data/2024a-hpcs/2024-09-24_2024a-hpcs.md) |
 | 《高性能计算机体系结构和设计》课程笔记 | [2024a-hpcs-index.md](../../data/2024a-hpcs/2024a-hpcs-index.md) |
