@@ -5,8 +5,10 @@
 - 网课链接：https://www.xuetangx.com/course/buaaP0812011754/21562422?channel=i.area.manual_search
 - 课程教材：计算机网络实验教程（第三版）
 - 实验报告：[2024-10-13_netlab-report.pdf](../../blob/pdf/2024-10-13_netlab-report.pdf)
-- 内容通知：https://docs.qq.com/doc/DVVNkSWVvWXp4ZU1u
+- 课程通知：https://docs.qq.com/doc/DVVNkSWVvWXp4ZU1u
 - 常见问题：https://docs.qq.com/doc/DVXJTdkV1UFJFcWZz
+- 学堂在线：https://www.xuetangx.com/
+- 文件传输：`ftp://10.111.1.29`
 
 ## 笔记信息
 
@@ -16,6 +18,7 @@
 4. `2024-09-20` 写了一个长达 5 页的 OSPF 预习笔记，但是我好伤感，现在不想录入。（`2024-10-13` 决定放弃录入，直接归档纸质材料。）
    1. 以后还是要先把线下实验都跑通再搞别的。
    2. 周六下午和晚上可以重新去做实验。
+5. [2024-10-17_2024a-netexp.md](../../data/2024a-netexp/2024-10-17_2024a-netexp.md) 预习
 
 ## 课程信息
 
@@ -43,7 +46,7 @@
    1. 在学堂在线网站：https://www.xuetangx.com/
    2. 搜索：计算机网络与通信实验
 6. 校内共享资源（仅限校园网内使用）
-   1. `ftp://10.111.1.29` （顺便说一句 dolphin 能支持 ftp，但是好像我在 dolphin 里面用这个 ftp 下载文件效果不太好）
+   1. `ftp://10.111.1.29`；使用 `FileZilla` 连接即可
    2. 其中有部分资料是不宜公开的内部资料，在本项目中不得提及，在进行相关记录时需要非常注意这一点。
 7. `2024-09-18` ZLJ 老师在微信群发言：
 
@@ -92,9 +95,11 @@
 > 2.如果实验室线下完成或者eNSP模拟软件完成，请参照考试上传所有设备配置要求，将最终设备配置以及实验成功测试信息，保存到一个文本文件，命名方式同上。
 > 最后，相关文件上传至ftp://10.111.1.29/upload/研究生对应文件夹下
 >
-> `2024-10-10` **这个实验我还没做！**
+> - `2024-10-10` **这个实验我还没做！**
+> - `2024-10-17` 这个实验提交了。
 
-14. `2024-10-17` 为了上传实验材料，下载了 FileZilla
-    1. 字符编码问题：https://help.aliyun.com/zh/cloud-web-hosting/support/using-filezilla-garbled-words-for-connection-to-the-site
-    2. 你别说，修好了字符集问题后，还真能用
+14. `2024-10-17` 为了上传实验材料，下载了 `FileZilla`
+    1. `sudo oma install filezilla`
+    2. 字符编码问题：https://help.aliyun.com/zh/cloud-web-hosting/support/using-filezilla-garbled-words-for-connection-to-the-site
+    3. 你别说，修好了字符集问题后，还真能用。
 

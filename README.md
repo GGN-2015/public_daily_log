@@ -9,6 +9,7 @@
   - 以后大概率不会~~频繁~~更新了，但是 `GGN_2015` **应当**（SHOULD）做必要的纠错工作。由于年代过于久远，其中有不少十分幼稚的内容还望读者海涵。
 
 
+
 ## 1. 内容索引
 
 - 规则相关：[journal-rules.md](./data/meta/journal-rules.md)
@@ -19,6 +20,7 @@
 - 其他工作：[other-work-index.md](./data/other-work/other-work-index.md)
 - 审计工作：[stat-index.md](./data/stat/stat-index.md)
 - 工具列表：[tools-index.md](./data/tools/tools-index.md)
+
 
 
 ## 2. TODO LIST
