@@ -18,6 +18,7 @@
 | 《`GGN_2015` 的日常生活规范》 | [life-standard.md](../../data/auto-gen/life-standard.md) |
 | 《`GGN_2015` 的睡眠情况》 | [sleep-time.md](../../data/stat/sleep-time.md) |
 | 《games101》 课程笔记 | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) |
+| 《minecraft 游玩笔记》 | [minecraft.md](../../data/other-work/minecraft.md) |
 | 《一个组合恒等式的证明》`2024-10-05` | [2024-10-05_cpp-prof.md](../../data/2024a-rand/2024-10-05_cpp-prof.md) |
 | 《一个组合恒等式的证明（补充）》`2024-10-05` | [2024-10-05_equ.md](../../data/2024a-rand/2024-10-05_equ.md) |
 | 《一道有趣的极限问题及其拓展》`2023-09-08` | [2023-09-08_math-with-hou.md](../../data/misc/2023-09-08_math-with-hou.md) |
@@ -34,6 +35,7 @@
 | 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
 | 《单纯形算法复习》`2024-09-28` | [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md) |
 | 《家庭、私有制与国家的起源》阅读笔记 | [engels-ofpps.md](../../data/books/engels-ofpps.md) |
+| 《感知建构循环——论技术发展与人类活动》 | [2024-10-17_sens-cons.md](../../data/misc/2024-10-17_sens-cons.md) |
 | 《扭结不变量区分能力报告》`2024-09-27` | [jlu-top-knot-report.md](../../data/other-work/jlu-top-knot-report.md) |
 | 《拉东变换的示例与实战》 `2024-09-18` | [2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md) |
 | 《新时代中国特色社会主义》`2024-10-15` `主M102` | [2024-10-15_2024a-chi-cha-soc.md](../../data/2024a-chi-cha-soc/2024-10-15_2024a-chi-cha-soc.md) |
@@ -60,6 +62,7 @@
 | 《虚拟现实技术》课程笔记 | [2024a-vr-index.md](../../data/2024a-vr/2024a-vr-index.md) |
 | 《计算机网络与通信实验》`2024-09-11` `线上` | [2024-09-11_2024a-netexp.md](../../data/2024a-netexp/2024-09-11_2024a-netexp.md) |
 | 《计算机网络与通信实验》课程笔记 | [2024a-netexp-index.md](../../data/2024a-netexp/2024a-netexp-index.md) |
+| 《计算机网络与通信实验》预习笔记 `2024-10-17` `线上` | [2024-10-17_2024a-netexp.md](../../data/2024a-netexp/2024-10-17_2024a-netexp.md) |
 | 《计算机网络与通信实验（预习）》`2024-09-12` `G714` | [2024-09-12_2024a-netexp.md](../../data/2024a-netexp/2024-09-12_2024a-netexp.md) |
 | 《证明切比雪夫不等式》`2024-09-24` | [2024-09-24_cheb.md](../../data/2024a-rand/2024-09-24_cheb.md) |
 | 《读书笔记》汇总 | [books-index.md](../../data/books/books-index.md) |
@@ -75,6 +78,7 @@
 | 《骨肿瘤手术规划项目》 | [bone-tumor-buaa-vr.md](../../data/buaa-vr/bone-tumor-buaa-vr.md) |
 | 《高性能计算机体系结构和设计》`2024-09-10` `A208` | [2024-09-10_2024a-hpcs.md](../../data/2024a-hpcs/2024-09-10_2024a-hpcs.md) |
 | 《高性能计算机体系结构和设计》`2024-09-24` `A208` | [2024-09-24_2024a-hpcs.md](../../data/2024a-hpcs/2024-09-24_2024a-hpcs.md) |
+| 《高性能计算机体系结构和设计》`2024-09-24` `A208` | [2024-10-19_2024a-hpcs.md](../../data/2024a-hpcs/2024-10-19_2024a-hpcs.md) |
 | 《高性能计算机体系结构和设计》课程笔记 | [2024a-hpcs-index.md](../../data/2024a-hpcs/2024a-hpcs-index.md) |
 | 《高斯分布相关证明》`2024-09-17` | [2024-09-15_gd.md](../../data/2024a-rand/2024-09-15_gd.md) |
 | 《高斯分布相关证明》`2024-09-23` | [2024-09-23_gd.md](../../data/2024a-rand/2024-09-23_gd.md) |
