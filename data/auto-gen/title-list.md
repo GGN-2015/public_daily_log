@@ -73,6 +73,7 @@
 | 《课程笔记》 | [course-code.md](../../data/meta/course-code.md) |
 | 《谢惠民数学分析习题集》读书笔记 | [math-xiehuimin.md](../../data/books/math-xiehuimin.md) |
 | 《软件第三方 QA 相关的思考》 `2024-09-14` | [2024-09-14_safety.md](../../data/misc/2024-09-14_safety.md) |
+| 《随机过程理论 第一章作业》`2024-10-21` | [ch-01-rand-ex.md](../../data/2024a-rand/ch-01-rand-ex.md) |
 | 《随机过程理论》`2024-09-09` `主M101` | [2024-09-09_2024a-rand.md](../../data/2024a-rand/2024-09-09_2024a-rand.md) |
 | 《随机过程理论》`2024-09-23` `主M101` | [2024-09-23_2024a-rand.md](../../data/2024a-rand/2024-09-23_2024a-rand.md) |
 | 《随机过程理论》`2024-09-30` `主M101` | [2024-09-30_2024a-rand.md](../../data/2024a-rand/2024-09-30_2024a-rand.md) |

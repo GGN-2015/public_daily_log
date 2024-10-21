@@ -10,6 +10,7 @@
 ## 习题整理
 
 1. [2024-10-03_rand-ex.md](../../data/2024a-rand/2024-10-03_rand-ex.md)
+2. 第一章作业：[ch-01-rand-ex.md](../../data/2024a-rand/ch-01-rand-ex.md)
 
 ## 课程信息
 
@@ -20,4 +21,5 @@
 
 - 第一章.pdf
 - 第二章.pdf
+- 第三章.pdf
 
