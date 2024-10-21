@@ -35,7 +35,7 @@
 | 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
 | 《分析经典电压过程的各态历经性》`2024-10-21` | [2024-10-21_analysis.md](../../data/2024a-rand/2024-10-21_analysis.md) |
 | 《单纯形算法复习》`2024-09-28` | [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md) |
-| 《学习如何成为一名 AOSC 包工》 `2024-10-21` | [oasc-pac.md](../../data/other-work/oasc-pac.md) |
+| 《学习如何成为一名 AOSC 包工》 `2024-10-21` | [aosc-pac.md](../../data/other-work/aosc-pac.md) |
 | 《家庭、私有制与国家的起源》阅读笔记 | [engels-ofpps.md](../../data/books/engels-ofpps.md) |
 | 《感知建构循环——论技术发展与人类活动》 | [2024-10-17_sens-cons.md](../../data/misc/2024-10-17_sens-cons.md) |
 | 《扭结不变量区分能力报告》`2024-09-27` | [jlu-top-knot-report.md](../../data/other-work/jlu-top-knot-report.md) |
@@ -57,6 +57,7 @@
 | 《科技写作与报告》课程笔记 | [2024a-engwri-index.md](../../data/2024a-engwri/2024a-engwri-index.md) |
 | 《网络与信息安全》`2024-09-09` `A208` | [2024-09-09_2024a-netsec.md](../../data/2024a-netsec/2024-09-09_2024a-netsec.md) |
 | 《网络与信息安全》课程笔记 | [2024a-netsec-index.md](../../data/2024a-netsec/2024a-netsec-index.md) |
+| 《老白台式机复刻计划》`2024-10-21` | [bai-desktop-pc.md](../../data/other-work/bai-desktop-pc.md) |
 | 《虚拟现实技术》`2024-09-12` `B202` | [2024-09-12_2024a-vr.md](../../data/2024a-vr/2024-09-12_2024a-vr.md) |
 | 《虚拟现实技术》`2024-09-19` `B202` | [2024-09-19_2024a-vr.md](../../data/2024a-vr/2024-09-19_2024a-vr.md) |
 | 《虚拟现实技术》`2024-09-26` `B202` | [2024-09-26_2024a-vr.md](../../data/2024a-vr/2024-09-26_2024a-vr.md) |

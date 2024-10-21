@@ -11,7 +11,8 @@
 ## 学习
 
 - 五笔学习：[wang-code.md](../../data/other-work/wang-code.md)
-- 学习如何成为一名 AOSC 包工：[oasc-pac.md](../../data/other-work/oasc-pac.md)
+- 学习如何成为一名 AOSC 包工：[aosc-pac.md](../../data/other-work/aosc-pac.md)
+- 老白台式机复刻计划：[bai-desktop-pc.md](../../data/other-work/bai-desktop-pc.md)
 
 ## 游戏
 
