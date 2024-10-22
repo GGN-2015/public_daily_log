@@ -3,5 +3,5 @@
 import subprocess
 
 def neko(*args) -> int:
-    result = subprocess.run(['neko'] + list(args), capture_output=True, text=True)
+    result = subprocess.run(['neko'] + list(args))
     return result.returncode
