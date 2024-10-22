@@ -250,21 +250,30 @@ def save_file(new_file: str, html_content: str): # 减少硬盘写入次数
         # pub_mylog.log("- <<1;34[INFO]>>: html file <<1;32[%s]>> \033[1;35munchanged\033[0m ...\n" % new_file)
         pass
 
+def process_table_class(html_content: str) -> str:
+    return html_content.replace("<table>", "<table class=\"table table-striped\">")
+
+# 渲染单个 html 页面
+def get_html_content_for_markdown(filename):
+    markdown_content = pre_scan(open(filename, encoding="utf-8").read())
+    markdown_content = wrap_http_link(markdown_content) # 渲染管线
+    markdown_content = render_del(markdown_content)
+    markdown_content = rename_link(markdown_content)
+    markdown_content = wrap_raw_dollar(markdown_content)
+    markdown_content = wrap_math_content(markdown_content)
+    html_content     = get_html_from_md(markdown_content) # 渲染 html
+    html_content     = unwrap_math_content(html_content) # 渲染 html
+    html_content     = unwrap_raw_dollar(html_content)
+    html_content     = unwrap_html_link(html_content)
+    html_content     = process_table_class(html_content)
+    return html_content
+
 # 为所有 markdown 文件制作 html 副本
 def create_all_html_file():
     for old_file in pub_dir_utils.get_all_markdown_file():
         assert old_file.endswith(".md")
-        markdown_content = pre_scan(open(old_file, encoding="utf-8").read())
-        markdown_content = wrap_http_link(markdown_content) # 渲染管线
-        markdown_content = render_del(markdown_content)
-        markdown_content = rename_link(markdown_content)
-        markdown_content = wrap_raw_dollar(markdown_content)
-        markdown_content = wrap_math_content(markdown_content)
-        html_content     = get_html_from_md(markdown_content) # 渲染 html
-        html_content     = unwrap_math_content(html_content) # 渲染 html
-        html_content     = unwrap_raw_dollar(html_content)
-        html_content     = unwrap_html_link(html_content)
-        new_file = old_file[:-3] + ".html"
+        html_content = get_html_content_for_markdown(old_file)
+        new_file     = old_file[:-3] + ".html"
         save_file(new_file, html_content)
 
 def create_index_html():
