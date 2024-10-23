@@ -26,6 +26,11 @@
 > · 所有小组展示完后由同学们评选出两组最佳口头展示奖，获奖小组每人均可获得精美奖品。
 
 - `2024-10-14` 开了一个小组会议，完成了论文提交工作，完成了任务划分工作。
+
+> https://vr-pan-junjun.github.io/publication/ming-li-02/paper.pdf
+> https://vr-pan-junjun.github.io/publication/ming-li-02/poster.pdf
+> https://www.youtube.com/watch?v=HBOScQuk8R8
+
 - `2024-10-16` 助教：
 
 > @所有人 
