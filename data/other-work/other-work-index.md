@@ -3,6 +3,7 @@
 ## 科研
 
 - 拓扑学工作：[jlu-top.md](../../data/other-work/jlu-top.md)
+- CONDA 环境配置日志：[conda-log.md](../../data/other-work/conda-log.md)
 
 ## 创作
 

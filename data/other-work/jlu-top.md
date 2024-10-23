@@ -4,6 +4,9 @@
 
 - `2024-10-02` 在统计报告中增加了《联合使用 khovanov 同调、HOMFLY-PT 多项式以及 volume 的区分能力》一节。
 - `2024-10-04` 在报告中添加了冲突相关的具体数据。
+- `2024-10-22` 这篇文章中提到了使用机器学习预测扭结类型的思路，可以触控看看
+  - https://mp.weixin.qq.com/s/WmQ-GN1IVehXI7oLdGFuVw
+- `2024-10-23` 尝试制作 `colored_jones_2` 和 `colored_jones_3` 的基础分类信息
 
 ## 2024-09
 

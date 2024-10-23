@@ -5,6 +5,7 @@
 | 《2024 年 10 月公开日志》 | [2024-10_misc.md](../../data/misc/2024-10_misc.md) |
 | 《2024 年 9 月公开日志》 | [2024-09_misc.md](../../data/misc/2024-09_misc.md) |
 | 《Box-Muller 方法正确性证明》`2024-09-15` | [2024-09-15_box-muller.md](../../data/2024a-rand/2024-09-15_box-muller.md) |
+| 《CONDA 环境配置日志》 | [conda-log.md](../../data/other-work/conda-log.md) |
 | 《LZS 来问了一个问题》`2024-09-20` | [2024-09-20_math-with-lzs.md](../../data/misc/2024-09-20_math-with-lzs.md) |
 | 《`GGN_2015` 在硕士生期间的工作日志》 | [buaa-vr-index.md](../../data/buaa-vr/buaa-vr-index.md) |
 | 《`GGN_2015` 打包的一些 pypi 包》 | [pypi-modules.md](../../data/other-work/pypi-modules.md) |
