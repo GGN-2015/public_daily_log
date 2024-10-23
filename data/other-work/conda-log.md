@@ -5,9 +5,11 @@
 ```bash
 conda create -n sage_env python sage
 conda activate sage_env
+conda install -c conda-forge singular
 pip install tqdm
 pip install Flask
 pip install --upgrade --user snappy
+pip install mptrolley
 ```
 
 ## `dcm_env`

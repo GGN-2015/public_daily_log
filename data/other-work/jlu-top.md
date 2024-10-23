@@ -7,6 +7,7 @@
 - `2024-10-22` 这篇文章中提到了使用机器学习预测扭结类型的思路，可以触控看看
   - https://mp.weixin.qq.com/s/WmQ-GN1IVehXI7oLdGFuVw
 - `2024-10-23` 尝试制作 `colored_jones_2` 和 `colored_jones_3` 的基础分类信息
+  - 制作了复合扭结的 `pd_code` 列表：https://github.com/TopologicalKnotIndexer/com_pd_code_list/blob/main/data/com_pd_code_list.txt
 
 ## 2024-09
 
