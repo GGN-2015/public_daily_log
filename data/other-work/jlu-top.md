@@ -8,6 +8,9 @@
   - https://mp.weixin.qq.com/s/WmQ-GN1IVehXI7oLdGFuVw
 - `2024-10-23` 尝试制作 `colored_jones_2` 和 `colored_jones_3` 的基础分类信息
   - 制作了复合扭结的 `pd_code` 列表：https://github.com/TopologicalKnotIndexer/com_pd_code_list/blob/main/data/com_pd_code_list.txt
+- `2024-10-24` `colored_jones_2` 和 `colored_jones_3` 合计只有 `32.3%` 的数据能够进行计算。
+- `2024-10-24` 编写了一个多进程并行的基础函数库，将来计划合并进入 `mptrolley`。
+- `2024-10-25` 计算所有标准扭结 `pd_code` 的 `writhe`。
 
 ## 2024-09
 
