@@ -3,6 +3,7 @@
 | ---- | ---- |
 | 《$\cos \Theta$ 的分布情况》`2024-10-01` | [2024-10-01_cos.md](../../data/2024a-rand/2024-10-01_cos.md) |
 | 《2024 年 10 月公开日志》 | [2024-10_misc.md](../../data/misc/2024-10_misc.md) |
+| 《2024 年 11 月公开日志》 | [2024-11_misc.md](../../data/misc/2024-11_misc.md) |
 | 《2024 年 9 月公开日志》 | [2024-09_misc.md](../../data/misc/2024-09_misc.md) |
 | 《Box-Muller 方法正确性证明》`2024-09-15` | [2024-09-15_box-muller.md](../../data/2024a-rand/2024-09-15_box-muller.md) |
 | 《CONDA 环境配置日志》 | [conda-log.md](../../data/other-work/conda-log.md) |
