@@ -2,10 +2,15 @@
 
 ## 置顶信息
 
-- https://docs.google.com/document/d/1klikltpaJ2Ni3rKA2GB0fz6GVXtONW5s49f-aeNHiRc
+- CIP：https://docs.google.com/document/d/1klikltpaJ2Ni3rKA2GB0fz6GVXtONW5s49f-aeNHiRc
 - https://hackmd.io/@Cyanoxygen/BknRsdO5A
 
 ## 笔记
+
+### 2024-10-27
+
+- CIP 15页：“以自己喜欢的方式**记笔下**你问过的问题及所得到的答案”
+  - 啥叫 “记笔下”？
 
 ### 2024-10-21
 

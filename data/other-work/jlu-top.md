@@ -11,6 +11,9 @@
 - `2024-10-24` `colored_jones_2` 和 `colored_jones_3` 合计只有 `32.3%` 的数据能够进行计算。
 - `2024-10-24` 编写了一个多进程并行的基础函数库，将来计划合并进入 `mptrolley`。
 - `2024-10-25` 计算所有标准扭结 `pd_code` 的 `writhe`。
+- `2024-10-27` 在 `sagemath` 的论坛上发了一个帖子，讨论关于 `colored_jones_polynomial` 不返回的问题。
+  - https://ask.sagemath.org/question/79833/colored-jones-polynomial-function-does-not-return/
+  - 记得每天去看一眼这个帖子是否有人回复。
 
 ## 2024-09
 
