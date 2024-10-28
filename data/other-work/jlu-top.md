@@ -14,6 +14,10 @@
 - `2024-10-27` 在 `sagemath` 的论坛上发了一个帖子，讨论关于 `colored_jones_polynomial` 不返回的问题。
   - https://ask.sagemath.org/question/79833/colored-jones-polynomial-function-does-not-return/
   - 记得每天去看一眼这个帖子是否有人回复。
+- `2024-10-28` 关于 sagemath colored jones 的帖子：
+  1. Max Alekseyev: Please submit a bugreport to https://github.com/sagemath/sage/issues
+  2. 我打算搞个 ubuntu 的虚拟机去做个复现，毕竟 AOSC 有点太小众了还是。
+  3. 写了一个 issue（bugreport）：https://github.com/sagemath/sage/issues/38869
 
 ## 2024-09
 

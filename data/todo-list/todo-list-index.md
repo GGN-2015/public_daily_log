@@ -4,13 +4,12 @@
 
 ## 1. TODO URGENT
 
-3. 思考虚拟现实技术大作业。
-4. 思考科技写作与汇报的海报相关问题（DDL：10.30）。
-5. 思考科学计算可视化的大作业。
-6. 记得每天去 https://ask.sagemath.org/ 看看帖子有没有人回复。
-   1. Max Alekseyev: Please submit a bugreport to https://github.com/sagemath/sage/issues
-   2. 我打算搞个 ubuntu 的虚拟机去做个复现，毕竟 AOSC 有点太小众了还是。
-7. 整理计算机网络实验的 docx 报告。
+3. 每日轮询：
+   1. https://github.com/sagemath/sage/issues/38869
+   2. https://ask.sagemath.org/question/79833/colored-jones-polynomial-function-does-not-return/
+4. 思考虚拟现实技术大作业。
+5. 思考科技写作与汇报的海报相关问题（DDL：10.30）。
+6. 思考科学计算可视化的大作业。
 
 
 
