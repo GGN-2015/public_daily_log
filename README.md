@@ -1,5 +1,7 @@
 # 《`GGN_2015` 的公开日志》
 
+
+
 ## 0. 置顶信息
 
 - 读者须知：
@@ -20,22 +22,5 @@
 - 其他工作：[other-work-index.md](./data/other-work/other-work-index.md)
 - 审计工作：[stat-index.md](./data/stat/stat-index.md)
 - 工具列表：[tools-index.md](./data/tools/tools-index.md)
-
-
-
-## 2. TODO LIST
-
-2. 记得每天去 https://ask.sagemath.org/ 看看帖子有没有人回复。
-3. `2024-09-30` 记得补一下《随机过程理论》课程中提到的证明。
-4. 《单纯型算法复习》
-5. 补充 cppascalinux 大佬提到的证明：任意两个整数互质的概率。
-6. `2024-09-30` 记得思考一下 ZKR 提的问题。
-7. 复现 tar 命令不支持中文路径的问题，检查 KDE5 下的 AOSC 是否也有这个问题。
-8. `2024-10-19` 这周有大量的笔记来不及整理。
-9. `2024-10-26` 这周的笔记压根就没整理出来。
-10. 学习如何成为一名 AOSC 包工。
-11. 美化日志中的表格渲染。
-12. 制定《素食者》读书计划。
-13. 制定《家私国》读书计划。
-14. 读凸集线性二分类相关的论文。
+- 待办事项：[todo-list-index.md](./data/todo-list/todo-list-index.md)
 
