@@ -9,6 +9,7 @@
 - 常见问题：https://docs.qq.com/doc/DVXJTdkV1UFJFcWZz
 - 学堂在线：https://www.xuetangx.com/
 - 文件传输：`ftp://10.111.1.29`
+- 由于设备原因，我们从第 6 组机器移动到了第 5 组机器。
 
 ## 笔记信息
 

@@ -33,4 +33,7 @@
 - 04-科学计算可视化-第03讲第01次-规则数据场的体绘制.pdf
 - 05 -科学计算可视化-第03讲第00次-科学计算可视化中的问题.pdf
 - 05-科学计算可视化-第03讲第02次-规则数据场的体绘制.pdf
+- 06-!State of the Art inTransferFunctions forDirectVolumeRendering.pdf
+- 06-!TVCGMultidimensional Transfer Functions for Interactive Volume Rendering-TVCG.pdf
+- 06-科学计算可视化-第03讲第03次-规则数据场的体绘制.pdf
 
