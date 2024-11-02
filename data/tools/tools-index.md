@@ -12,5 +12,6 @@
 - `pub_git_utils.py`：根据 `gitlog` 获取行数统计信息字符串。
 - `pub_html_tool.py`：渲染所有 `markdown` 文件到 `HTML` 文件。
 - `pub_mylog.py`：用于构建 `stderr` 彩色日志。
+- `pub_neko_interface.py`：在公有接口函数中调用私有接口函数的接口。
 - 公式测试：$f(x)=\frac{1}{\sqrt{2\pi}\sigma}\cdot\exp\left(-\frac{1}{2}\frac{(x-a)^2}{\sigma^2}\right)$
 
