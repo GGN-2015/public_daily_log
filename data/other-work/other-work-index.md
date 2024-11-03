@@ -19,3 +19,7 @@
 
 - minecraft 游玩笔记：[minecraft.md](../../data/other-work/minecraft.md)
 
+## 工具
+
+- `matplotlib` 的常用方法：[matplotlib.md](../../data/other-work/matplotlib.md)
+

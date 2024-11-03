@@ -28,3 +28,14 @@ pip install scikit-learn
 pip install scikit-image
 ```
 
+## scipy_env
+
+```bash
+conda create -n scipy_env python
+conda activate scipy_env
+pip install numpy
+pip install matplotlib
+pip install pillow
+pip install scipy
+```
+
