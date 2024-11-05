@@ -7,7 +7,8 @@
 ## 数学类
 
 - 谢惠民数学分析习题集：[math-xiehuimin.md](../../data/books/math-xiehuimin.md)
-- `2024-09-28` 《单纯形算法复习》 [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md)
+- `2024-09-28` 《单纯形算法复习》 [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md) （未完成）
+- 《随机过程理论阅读笔记》[book-stochastic-process.md](../../data/books/book-stochastic-process.md)
 
 ## 哲学类
 
@@ -15,3 +16,4 @@
   - 以下内容仅作为个人学习日志使用。
 - 家庭、私有制和国家的起源：[engels-ofpps.md](../../data/books/engels-ofpps.md)
 
+ 
