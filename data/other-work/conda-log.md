@@ -39,3 +39,12 @@ pip install pillow
 pip install scipy
 ```
 
+## vtk_env
+
+```bash
+conda create -n vtk_env python
+conda activate vtk_env
+conda install -c conda-forge vtk
+pip install opencv-python
+```
+
