@@ -22,10 +22,11 @@
   - `2024-01-18`《欧拉函数因子和的神奇证明》https://blog.csdn.net/GGN_2015/article/details/135663368
   - `2024-05-09`《【勘误】一个错误的快速排序实现》https://blog.csdn.net/GGN_2015/article/details/138627307
   - `2024-09-14`《软件第三方 QA 相关的思考》[2024-09-14_safety.md](../../data/misc/2024-09-14_safety.md)
-  - `2024-09-18`《拉东变换示例与实战》[2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md)
   - `2024-09-20`《LZS 来问了一个问题》[2024-09-20_math-with-lzs.md](../../data/misc/2024-09-20_math-with-lzs.md)
   - `2024-10-04`《关于理解尊重的解释》[2024-10-04_respect.md](../../data/misc/2024-10-04_respect.md)
-  - `2024-10-17` 《感知建构循环——论技术发展与人类活动》[2024-10-17_sens-cons.md](../../data/misc/2024-10-17_sens-cons.md)
+- **未完成文稿**：
+  - `2024-10-17`《感知建构循环——论技术发展与人类活动》[2024-10-17_sens-cons.md](../../data/misc/2024-10-17_sens-cons.md)
+  - `2024-09-18`《拉东变换示例与实战》[2024-09-18_radon.md](../../data/misc/2024-09-18_radon.md)
 
 ## 2023
 
