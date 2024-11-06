@@ -4,18 +4,20 @@
 
 ## 1. TODO URGENT
 
-3. 每日轮询：
+1. 政治课线上视频以及作业。
+   1. https://buaa.yuketang.cn/pro/courselist
+2. 每日轮询：
    1. https://github.com/sagemath/sage/issues/38869
    2. https://ask.sagemath.org/question/79833/colored-jones-polynomial-function-does-not-return/
-4. 思考虚拟现实技术大作业。
-5. 思考科学计算可视化的大作业。
-6. 读凸集线性二分类相关的论文。
+3. 思考虚拟现实技术大作业。
+4. 思考科学计算可视化的大作业。
+5. 读凸集线性二分类相关的论文。
 
 
 
 ## 2. TODO REGULAR
 
-8. `2024-09-30` 记得补一下《随机过程理论》课程中提到的证明。
+1. `2024-09-30` 记得补一下《随机过程理论》课程中提到的证明。
 2. 《单纯型算法复习》
 
 
