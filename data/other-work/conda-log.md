@@ -1,6 +1,6 @@
 # 《CONDA 环境配置日志》
 
-## `sage_env`
+## sage_env
 
 ```bash
 conda create -n sage_env python sage
@@ -12,7 +12,7 @@ pip install --upgrade --user snappy
 pip install mptrolley
 ```
 
-## `dcm_env`
+## dcm_env
 
 ```bash
 conda create -n dcm_env python
@@ -46,5 +46,18 @@ conda create -n vtk_env python
 conda activate vtk_env
 conda install -c conda-forge vtk
 pip install opencv-python
+```
+
+## tf_gpu_env
+
+- 目前这个环境还有很严重的问题
+- 基本上是跑不起来的，而且 GPU 也不可用
+
+```bash
+conda create -n tf_gpu_env python==3.9
+conda install tensorflow==2.18.0
+pip install keras==3.5.0
+pip install scikit-learn
+conda install nltk
 ```
 
