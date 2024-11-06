@@ -50,8 +50,7 @@ pip install opencv-python
 
 ## tf_gpu_env
 
-- 目前这个环境还有很严重的问题
-- 基本上是跑不起来的，而且 GPU 也不可用
+- 基本上是跑不起来的，而且 GPU 也不可用，所以后来放弃了 gpu, 但是环境的名字没改
 
 ```bash
 conda create -n tf_gpu_env python==3.9
@@ -59,5 +58,7 @@ conda install tensorflow==2.18.0
 pip install keras==3.5.0
 pip install scikit-learn
 conda install nltk
+python3 -c "import nltk; nltk.download('punkt')"
+python3 -c "import nltk; nltk.download('punkt_tab')" # 请确保安装成功，经常会有报错
 ```
 
