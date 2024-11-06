@@ -6,6 +6,7 @@
 - `pub_copy_std.py`：从隔壁项目拷贝日常生活规范。
 - `pub_dir_utils.py`：扫描项目中的所有文件。
 - `pub_dup_name_check.py`：检查公开日志项目中是否有文件重名。
+- `pub_gemini_embedding.py`：使用 `gemini` 对文本内容进行相似度检索（打算弃坑）。
 - `pub_gen_line_stat.py`：根据 `gitlog` 获取行数统计信息文件。
 - `pub_gen_title_list.py`：生成标题索引文件。
 - `pub_get_tags.py`：【管道工具】，在公开日志中使用 `json tags` 标签检索文件。
@@ -14,4 +15,3 @@
 - `pub_mylog.py`：用于构建 `stderr` 彩色日志。
 - `pub_neko_interface.py`：在公有接口函数中调用私有接口函数的接口。
 - 公式测试：$f(x)=\frac{1}{\sqrt{2\pi}\sigma}\cdot\exp\left(-\frac{1}{2}\frac{(x-a)^2}{\sigma^2}\right)$
-

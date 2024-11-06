@@ -38,6 +38,7 @@
 | 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
 | 《分析经典电压过程的各态历经性》`2024-10-21` | [2024-10-21_analysis.md](../../data/2024a-rand/2024-10-21_analysis.md) |
 | 《单纯形算法复习》`2024-09-28` | [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md) |
+| 《学习 gemini api》 | [gemini-api.md](../../data/other-work/gemini-api.md) |
 | 《学习如何成为一名 AOSC 包工》 `2024-10-21` | [aosc-pac.md](../../data/other-work/aosc-pac.md) |
 | 《家庭、私有制与国家的起源》阅读笔记 | [engels-ofpps.md](../../data/books/engels-ofpps.md) |
 | 《帮金币的同学配环境》`2024-11-06` | [2024-11-06_help-env.md](../../data/other-work/2024-11-06_help-env.md) |

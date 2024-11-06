@@ -54,11 +54,24 @@ pip install opencv-python
 
 ```bash
 conda create -n tf_gpu_env python==3.9
+conda activate tf_gpu_env
 conda install tensorflow==2.18.0
 pip install keras==3.5.0
 pip install scikit-learn
 conda install nltk
 python3 -c "import nltk; nltk.download('punkt')"
 python3 -c "import nltk; nltk.download('punkt_tab')" # 请确保安装成功，经常会有报错
+```
+
+## google_env
+
+- 参考：https://pypi.org/project/google-generativeai/
+
+```bash
+conda create -n google_env python
+conda activate google_env
+pip install numpy
+pip install tqdm
+pip install -U google-generativeai
 ```
 
