@@ -44,3 +44,8 @@
 - **文章汇总**：
   - `2020-12-12`《Pollard-Rho算法证明》https://blog.csdn.net/GGN_2015/article/details/111059402
 
+## 远古
+
+- `GGN_2015` 有一个年久失修的 CSDN 博客 https://blog.csdn.net/GGN_2015?type=blog
+  - 以后大概率不会~~频繁~~更新了，但是 `GGN_2015` **应当**（SHOULD）做必要的纠错工作。由于年代过于久远，其中有不少十分幼稚的内容还望读者海涵。
+
