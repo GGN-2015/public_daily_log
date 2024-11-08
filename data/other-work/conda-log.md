@@ -6,6 +6,7 @@
 conda activate base
 pip install cryptography # 用于 neko load_crypto
 pip install build twine  # 用于 pypi 打包
+pip install markdown2    # 用于日志 html 的渲染
 ```
 
 ## sage_env
