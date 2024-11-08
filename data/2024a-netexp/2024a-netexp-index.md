@@ -105,3 +105,5 @@
     2. 字符编码问题：https://help.aliyun.com/zh/cloud-web-hosting/support/using-filezilla-garbled-words-for-connection-to-the-site
     3. 你别说，修好了字符集问题后，还真能用。
 
+15. `2024-11-08` OSPF 一定要记得让所有相邻网段都用命令 `network` 挂一下，否则有些地方会看不见。
+
