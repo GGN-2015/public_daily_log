@@ -1,5 +1,13 @@
 # 《CONDA 环境配置日志》
 
+## base
+
+```bash
+conda activate base
+pip install cryptography # 用于 neko load_crypto
+pip install build twine  # 用于 pypi 打包
+```
+
 ## sage_env
 
 ```bash
