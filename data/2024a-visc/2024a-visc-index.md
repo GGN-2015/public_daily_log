@@ -36,4 +36,7 @@
 - 06-!State of the Art inTransferFunctions forDirectVolumeRendering.pdf
 - 06-!TVCGMultidimensional Transfer Functions for Interactive Volume Rendering-TVCG.pdf
 - 06-科学计算可视化-第03讲第03次-规则数据场的体绘制.pdf
+- 07 01-科学计算可视化-第03讲第04次-规则数据场的体绘制.pdf
+- 07 02-科学计算可视化-第03讲第05次-规则数据场的体绘制.pdf
+- 07-科学计算可视化-第03讲第05次-vtk经验.pdf
 
