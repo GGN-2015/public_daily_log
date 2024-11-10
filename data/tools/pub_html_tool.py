@@ -268,14 +268,7 @@ def get_html_content_for_markdown(filename):
     html_content     = process_table_class(html_content)
     return html_content
 
-# 为所有 markdown 文件制作 html 副本
-def create_all_html_file():
-    for old_file in pub_dir_utils.get_all_markdown_file():
-        assert old_file.endswith(".md")
-        html_content = get_html_content_for_markdown(old_file)
-        new_file     = old_file[:-3] + ".html"
-        save_file(new_file, html_content)
-
+# 生成 index 目录
 def create_index_html():
     new_index_html = pub_dir_utils.get_root_dir("index.html")
     open(new_index_html, "w").write("""
@@ -287,6 +280,14 @@ def create_index_html():
 </html>
 """)
 
+# 为所有 markdown 文件制作 html 副本
+def create_all_html_file():
+    for old_file in pub_dir_utils.get_all_markdown_file():
+        assert old_file.endswith(".md")
+        html_content = get_html_content_for_markdown(old_file)
+        new_file     = old_file[:-3] + ".html"
+        save_file(new_file, html_content)
+    create_index_html()
+
 if __name__ == "__main__":
     create_all_html_file()
-    create_index_html()
