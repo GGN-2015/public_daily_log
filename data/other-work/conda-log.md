@@ -32,6 +32,7 @@ pip install mptrolley
 ```bash
 conda create -n dcm_env python
 conda activate dcm_env
+conda install -c conda-forge vtk
 pip install pydicom
 pip install pylibjpeg
 pip install pylibjpeg-libjpeg
