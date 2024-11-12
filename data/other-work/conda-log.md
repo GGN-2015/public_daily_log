@@ -1,5 +1,11 @@
 # 《CONDA 环境配置日志》
 
+## 删除一个虚拟环境
+
+```bash
+conda remove --name <虚拟环境名> --all
+```
+
 ## base
 
 ```bash
