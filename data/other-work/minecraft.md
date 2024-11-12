@@ -15,4 +15,5 @@ update-alternatives --config java
 - 试图使用 bakaxl：https://help.bakaxl.com/v4/running-in-ubuntu.html
 - 最后定位出问题在于 forge 不好用
   - 尝试：https://www.reddit.com/r/Minecraft/comments/8dvv5b/forge_on_linux/?rdt=36333
+  - 尝试：https://raspberrytips.com/install-minecraft-forge-on-linux/
 
