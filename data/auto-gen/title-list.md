@@ -20,6 +20,7 @@
 | 《`GGN_2015` 的日常生活规范》 | [life-standard.md](../../data/auto-gen/life-standard.md) |
 | 《`GGN_2015` 的睡眠情况》 | [sleep-time.md](../../data/stat/sleep-time.md) |
 | 《games101》 课程笔记 | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) |
+| 《lagecy：minecraft 游玩笔记》 | [lagecy-minecraft.md](../../data/other-work/lagecy-minecraft.md) |
 | 《matplotlib 的常见用法》 | [matplotlib.md](../../data/other-work/matplotlib.md) |
 | 《minecraft 游玩笔记》 | [minecraft.md](../../data/other-work/minecraft.md) |
 | 《一个组合恒等式的证明》`2024-10-05` | [2024-10-05_cpp-prof.md](../../data/2024a-rand/2024-10-05_cpp-prof.md) |
