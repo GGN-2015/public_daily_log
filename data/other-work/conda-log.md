@@ -91,3 +91,11 @@ pip install tqdm
 pip install -U google-generativeai
 ```
 
+## flask_env
+
+```bash
+conda create -n flask_env python
+conda activate flask_env
+pip install flask
+```
+
