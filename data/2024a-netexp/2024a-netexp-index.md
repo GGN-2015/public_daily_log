@@ -3,7 +3,9 @@
 ## 置顶信息
 
 - 网课链接：https://www.xuetangx.com/course/buaaP0812011754/21562422?channel=i.area.manual_search
-- 课程教材：计算机网络实验教程（第三版）
+- 课程教材：
+  - http://premierbob.club:5001/computer-science/network-lab-buaa.pdf
+  - 计算机网络实验教程（第三版）
 - 实验报告：[2024-10-13_netlab-report.pdf](../../blob/pdf/2024-10-13_netlab-report.pdf)
 - 课程通知：https://docs.qq.com/doc/DVVNkSWVvWXp4ZU1u
 - 常见问题：https://docs.qq.com/doc/DVXJTdkV1UFJFcWZz
@@ -102,8 +104,10 @@
 
 14. `2024-10-17` 为了上传实验材料，下载了 `FileZilla`
     1. `sudo oma install filezilla`
-    2. 字符编码问题：https://help.aliyun.com/zh/cloud-web-hosting/support/using-filezilla-garbled-words-for-connection-to-the-site
+    2. 字符编码问题：
+       1. https://help.aliyun.com/zh/cloud-web-hosting/support/using-filezilla-garbled-words-for-connection-to-the-site
+       2. https://blog.csdn.net/java_huashan/article/details/49421525
     3. 你别说，修好了字符集问题后，还真能用。
-
+    
 15. `2024-11-08` OSPF 一定要记得让所有相邻网段都用命令 `network` 挂一下，否则有些地方会看不见。
 
