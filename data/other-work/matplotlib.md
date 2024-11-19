@@ -1,6 +1,6 @@
-# 《matplotlib 的常见用法》
+# 《图像相关工具的常见用法》
 
-## 三维图像绘制
+## matplotlib 三维图像绘制
 
 ```python
 import numpy as np
@@ -103,4 +103,14 @@ my_plot_any_surface(ax, -3, 3, 60, -3, 3, 60, sample2to3, 'cyan', 0.5)
 
 # ============================== 限制坐标范围，显示 plt（略）============================== #
 ```
+
+## vtk 三维图像绘制
+
+### vtk 绘制 CT DICOM 数据
+
+- 参考：`neko://Archive/2024-11-12_DogCT整理`
+
+### vtk 绘制三维 numpy 数组数据
+
+- 参考：`neko://Archive/2024-11-19_如何把vtk当三维画板`
 
