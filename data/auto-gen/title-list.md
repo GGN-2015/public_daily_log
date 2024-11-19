@@ -21,7 +21,6 @@
 | 《`GGN_2015` 的睡眠情况》 | [sleep-time.md](../../data/stat/sleep-time.md) |
 | 《games101》 课程笔记 | [2024a-games101-index.md](../../data/2024a-games101/2024a-games101-index.md) |
 | 《lagecy：minecraft 游玩笔记》 | [lagecy-minecraft.md](../../data/other-work/lagecy-minecraft.md) |
-| 《matplotlib 的常见用法》 | [matplotlib.md](../../data/other-work/matplotlib.md) |
 | 《minecraft 游玩笔记》 | [minecraft.md](../../data/other-work/minecraft.md) |
 | 《一个组合恒等式的证明》`2024-10-05` | [2024-10-05_cpp-prof.md](../../data/2024a-rand/2024-10-05_cpp-prof.md) |
 | 《一个组合恒等式的证明（补充）》`2024-10-05` | [2024-10-05_equ.md](../../data/2024a-rand/2024-10-05_equ.md) |
@@ -39,6 +38,7 @@
 | 《其他工作索引》 | [other-work-index.md](../../data/other-work/other-work-index.md) |
 | 《分析经典电压过程的各态历经性》`2024-10-21` | [2024-10-21_analysis.md](../../data/2024a-rand/2024-10-21_analysis.md) |
 | 《单纯形算法复习》`2024-09-28` | [2024-09-28_simplex.md](../../data/books/2024-09-28_simplex.md) |
+| 《图像相关工具的常见用法》 | [matplotlib.md](../../data/other-work/matplotlib.md) |
 | 《学习 gemini api》 | [gemini-api.md](../../data/other-work/gemini-api.md) |
 | 《学习如何成为一名 AOSC 包工》 `2024-10-21` | [aosc-pac.md](../../data/other-work/aosc-pac.md) |
 | 《家庭、私有制与国家的起源》阅读笔记 | [engels-ofpps.md](../../data/books/engels-ofpps.md) |
