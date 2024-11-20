@@ -23,5 +23,8 @@
 ## 工具
 
 - 一些图像/图表相关工具常用方法：[matplotlib.md](../../data/other-work/matplotlib.md)
+
+## 杂项
+
 - 帮金币的同学配环境：[2024-11-06_help-env.md](../../data/other-work/2024-11-06_help-env.md)
 
