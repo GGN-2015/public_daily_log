@@ -9,6 +9,10 @@
 
 - PYPI 包：[pypi-modules.md](../../data/other-work/pypi-modules.md)
 
+## 社团
+
+- TYC 以及 LUG 相关：[tyc-and-lug.md](../../data/other-work/tyc-and-lug.md)
+
 ## 学习
 
 - 五笔学习：[wang-code.md](../../data/other-work/wang-code.md)
