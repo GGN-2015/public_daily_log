@@ -13,6 +13,8 @@
     - 编写使用素链环构建非素链环数据库的程序。
 - `2024-11-26` 创建了 knotpen 项目。
 
+<img src="../../blob/img/2024-11-26_knotpen.png" style="width: 300px">
+
 ## 2024-10
 
 - `2024-10-02` 在统计报告中增加了《联合使用 khovanov 同调、HOMFLY-PT 多项式以及 volume 的区分能力》一节。
