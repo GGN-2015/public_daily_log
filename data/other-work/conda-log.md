@@ -99,3 +99,11 @@ conda activate flask_env
 pip install flask
 ```
 
+## imageio_env
+
+```bash
+conda create -n imageio_env python
+conda activate imageio_env
+pip install imageio
+```
+
