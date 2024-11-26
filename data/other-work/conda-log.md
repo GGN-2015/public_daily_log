@@ -105,5 +105,6 @@ pip install flask
 conda create -n imageio_env python
 conda activate imageio_env
 pip install imageio
+pip install matplotlib
 ```
 
