@@ -15,6 +15,12 @@
 
 <img src="../../blob/img/2024-11-26_knotpen.png" style="width: 300px">
 
+- `2024-11-30` 老师推荐了共形几何相关的内容：
+
+> 2024年计算共形几何课程总结：https://mp.weixin.qq.com/s/G1FiL8W12MKW4zmWWE2RZQ
+>
+> 【【顾险峰】【中英字幕】计算共形几何系列课程】 https://www.bilibili.com/video/BV1UC4y187D4
+
 ## 2024-10
 
 - `2024-10-02` 在统计报告中增加了《联合使用 khovanov 同调、HOMFLY-PT 多项式以及 volume 的区分能力》一节。
