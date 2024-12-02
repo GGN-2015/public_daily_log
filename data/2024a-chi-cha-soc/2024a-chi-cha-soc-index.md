@@ -12,4 +12,5 @@
 ## 课件列表
 
 - 中特课注意事项2024-给学生.pptx
+- `2024-12-13` 前完成所有雨课堂线上学习内容，详见：https://buaa.yuketang.cn/pro/courselist
 
