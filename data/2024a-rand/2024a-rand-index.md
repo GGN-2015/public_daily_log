@@ -14,6 +14,9 @@
 1. [2024-10-03_rand-ex.md](../../data/2024a-rand/2024-10-03_rand-ex.md)
 2. 第一章作业：[ch-01-rand-ex.md](../../data/2024a-rand/ch-01-rand-ex.md)
 3. `2024-10-28` 完成了第二章作业的前五题。
+4. `2024-12-03` QBH 大佬问：这个推倒怎么来的，我看不懂啊。
+
+<img src="../../blob/img/2024-12-03_qbh-question.png" style="width: 400px">
 
 ## 课程信息
 
