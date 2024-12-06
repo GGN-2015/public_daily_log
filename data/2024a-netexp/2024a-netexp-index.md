@@ -112,4 +112,11 @@
 16. `2024-12-06` 计算机网络与通信实验：完结撒花！！！
     1. 感觉我还是有贡献的，告诉了老师 Shift+Backspace 和 Backspace 的事情，老师说头一次知道。
     2. 还有就是提了几个关于教材的建议：电子教材 & 突出问题方便定位等考虑。
-
+17. SRv6 下的名词解释：
+    1. SRv6 BE：Segment Routing over IPv6 Backbone
+    2. SRv6 TE：Segment Routing over IPv6 Traffic Engineering
+    3. SRv6 SRH：Segment Routing Header
+    4. MPLS PE：Multiprotocol Label Switching Provider Edge
+    5. SRv6 SID：Locator + Function Opcode
+    6. MPLS CE：Multiprotocol Label Switching Customer Edge
+    7. IS-IS：Intermediate System to Intermediate System
