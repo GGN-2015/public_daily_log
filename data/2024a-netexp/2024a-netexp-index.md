@@ -108,6 +108,8 @@
        1. https://help.aliyun.com/zh/cloud-web-hosting/support/using-filezilla-garbled-words-for-connection-to-the-site
        2. https://blog.csdn.net/java_huashan/article/details/49421525
     3. 你别说，修好了字符集问题后，还真能用。
-    
 15. `2024-11-08` OSPF 一定要记得让所有相邻网段都用命令 `network` 挂一下，否则有些地方会看不见。
+16. `2024-12-06` 计算机网络与通信实验：完结撒花！！！
+    1. 感觉我还是有贡献的，告诉了老师 Shift+Backspace 和 Backspace 的事情，老师说头一次知道。
+    2. 还有就是提了几个关于教材的建议：电子教材 & 突出问题方便定位等考虑。
 
