@@ -29,7 +29,8 @@
 ## `GGN_2015` 目前制作的一些包
 
 - `2024-10-12` 远程命令发送：https://pypi.org/project/neko-rexec/
-- `2024-10-12` 发文件拆分为片段：https://pypi.org/project/cuffers/
+- `2024-10-12` 把文件拆分为片段：https://pypi.org/project/cuffers/
+  - `2024-12-13` 重新写了另一个把文件拆分成片段的包：https://pypi.org/project/py-blk-bash-db/
 - `2024-10-12` 简单多线程加速：https://pypi.org/project/mptrolley/
 - `2024-10-21` 在 CT 图像中识别标志球：https://pypi.org/project/dcm-ball-detector/
 - `2024-10-25` 多进程并行基础设施：https://pypi.org/project/process-wrap-queue/
