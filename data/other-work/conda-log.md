@@ -1,5 +1,7 @@
 # 《CONDA 环境配置日志》
 
+- 请注意：此文件为公开文件。
+
 ## 删除一个虚拟环境
 
 ```bash
@@ -107,5 +109,16 @@ conda activate imageio_env
 pip install imageio
 pip install matplotlib
 pip install scipy
+```
+
+## 如何打包一个 python 项目
+
+- 首先，编写 `MANIFEST.IN` 以及 `pyproject.toml` 
+- 在 `base` 环境下执行一下命令：
+
+```bash
+rm -f ./dist/*
+python3 -m build
+python3 -m twine upload ./dist/*
 ```
 
