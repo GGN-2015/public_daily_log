@@ -12,4 +12,7 @@
 - `2024-11-20` 导师说我的重点工作在**导航**而不在自动化生成规划。
 - `2024-12-03` 在实验室的工位上配置 Unity6 以及 VS 以及 win10 SDK，感觉安装是一个很费时的工作。
 - `2024-12-13` IEEE VR 的完整论文集，不一定能下载：https://ieeexplore.ieee.org/xpl/conhome/10536145/proceeding
+- `2024-12-14` 测试网卡是否可用。
+
+<img src="../../blob/img/internet-card.jpg" style="width: 400px">
 
