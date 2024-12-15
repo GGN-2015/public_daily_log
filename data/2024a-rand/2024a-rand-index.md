@@ -18,6 +18,10 @@
 
 <img src="../../blob/img/2024-12-03_qbh-question.png" style="width: 400px">
 
+## 关于作业
+
+- `2024-12-15` 完成了第一章作业：`neko launch neko://Archive/2024-12-15_随机过程作业`
+
 ## 课程信息
 
 1. 课程微信群：暂无、等待助教建立。
