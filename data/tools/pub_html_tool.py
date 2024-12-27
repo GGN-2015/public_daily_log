@@ -49,7 +49,7 @@ NAVBAR = """
         <li class="nav-item">
           <a class="nav-link active" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">目录</a>
         </li>
-        <li class="nav-item>
+        <li class="nav-item">
             <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery">辽ICP备2020011946号-1</a>
         </li>
       </ul>
