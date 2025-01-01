@@ -55,6 +55,14 @@ pip install pillow
 pip install scipy
 ```
 
+## pillow
+
+```bash
+conda create -n pillow_env python
+conda activate pillow_env
+pip install pillow
+```
+
 ## vtk_env
 
 ```bash
