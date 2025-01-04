@@ -21,6 +21,7 @@
 ## 关于作业
 
 - `2024-12-15` 完成了第一章作业：`neko launch neko://Archive/2024-12-15_随机过程作业`
+- 作业整理：https://github.com/GGN-2015/stochastic-process-homework
 
 ## 课程信息
 
