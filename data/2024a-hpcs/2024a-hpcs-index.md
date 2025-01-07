@@ -35,3 +35,9 @@
   - （2023）ASPLOS：Pond: CXL-Based Memory Pooling Systems for Cloud Platforms
   - （2023）ASPLOS：TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory
 
+- `2025-01-07` 提交高性能最终作业。
+
+> @所有人
+> 请各组在1月7日晚上之前将最终版大作业word报告和PPT提交至以下链接。报告和PPT均以“第x组-主题”命名，例如“第2组-高性能计算机体系结构模型”。
+> https://bhpan.buaa.edu.cn/link/AAB60F1B9116C94FF0A70C409D14C63526
+
