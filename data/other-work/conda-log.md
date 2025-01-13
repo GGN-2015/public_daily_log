@@ -55,7 +55,7 @@ pip install pillow
 pip install scipy
 ```
 
-## pillow
+## pillow_env
 
 ```bash
 conda create -n pillow_env python
