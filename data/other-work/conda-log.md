@@ -69,9 +69,12 @@ pip install scipy
 ```bash
 conda create -n nibabel_env python
 conda activate nibabel_env
+pip install vtk
 pip install nibabel
 pip install Pillow
 pip install tqdm
+pip install scipy
+pip install numpy-stl
 ```
 
 ## pillow_env
