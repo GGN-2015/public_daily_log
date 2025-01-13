@@ -1,6 +1,6 @@
 # 《CONDA 环境配置日志》
 
-- **请注意：此文件为公开文件**。
+- **请注意：此文件为公开文件**。建议按照名称字典序整理。
 
 ## 删除一个虚拟环境
 
@@ -15,16 +15,6 @@ conda activate base
 pip install cryptography # 用于 neko load_crypto
 pip install build twine  # 用于 pypi 打包
 pip install markdown2    # 用于日志 html 的渲染
-```
-
-## sage_env
-
-```bash
-conda create -n sage_env python sage
-conda activate sage_env
-pip install tqdm
-pip install Flask
-pip install --upgrade --user snappy
 ```
 
 ## dcm_env
@@ -44,15 +34,44 @@ pip install scikit-learn
 pip install scikit-image
 ```
 
-## scipy_env
+## flask_env
 
 ```bash
-conda create -n scipy_env python
-conda activate scipy_env
+conda create -n flask_env python
+conda activate flask_env
+pip install flask
+```
+
+## google_env
+
+- 参考：https://pypi.org/project/google-generativeai/
+
+```bash
+conda create -n google_env python
+conda activate google_env
 pip install numpy
+pip install tqdm
+pip install -U google-generativeai
+```
+
+## imageio_env
+
+```bash
+conda create -n imageio_env python
+conda activate imageio_env
+pip install imageio
 pip install matplotlib
-pip install pillow
 pip install scipy
+```
+
+## nibabel_env
+
+```bash
+conda create -n nibabel_env python
+conda activate nibabel_env
+pip install nibabel
+pip install Pillow
+pip install tqdm
 ```
 
 ## pillow_env
@@ -63,14 +82,25 @@ conda activate pillow_env
 pip install pillow
 ```
 
-## vtk_env
+## sage_env
 
 ```bash
-conda create -n vtk_env python
-conda activate vtk_env
-conda install -c conda-forge vtk
-pip install opencv-python
+conda create -n sage_env python sage
+conda activate sage_env
+pip install tqdm
+pip install Flask
+pip install --upgrade --user snappy
+```
+
+## scipy_env
+
+```bash
+conda create -n scipy_env python
+conda activate scipy_env
+pip install numpy
+pip install matplotlib
 pip install pillow
+pip install scipy
 ```
 
 ## tf_gpu_env
@@ -88,34 +118,14 @@ python3 -c "import nltk; nltk.download('punkt')"
 python3 -c "import nltk; nltk.download('punkt_tab')" # 请确保安装成功，经常会有报错
 ```
 
-## google_env
-
-- 参考：https://pypi.org/project/google-generativeai/
+## vtk_env
 
 ```bash
-conda create -n google_env python
-conda activate google_env
-pip install numpy
-pip install tqdm
-pip install -U google-generativeai
-```
-
-## flask_env
-
-```bash
-conda create -n flask_env python
-conda activate flask_env
-pip install flask
-```
-
-## imageio_env
-
-```bash
-conda create -n imageio_env python
-conda activate imageio_env
-pip install imageio
-pip install matplotlib
-pip install scipy
+conda create -n vtk_env python
+conda activate vtk_env
+conda install -c conda-forge vtk
+pip install opencv-python
+pip install pillow
 ```
 
 ## 如何打包一个 python 项目
