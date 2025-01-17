@@ -17,6 +17,10 @@ hugo server --disableFastRender # 没有报错
   - 每次 pull request 合并之后需要手动运行一次 `publish workflow`
   - https://github.com/vr-pan-junjun/vr-pan-junjun.github.io/actions/workflows/publish.yaml
 
+## 2025-01
+
+- `2025-01-17` 修复了代老师在实验室网站上的个人简介。（看到我自己去年做的灵车流水线还能用，感觉很欣慰）
+
 ## 2024-10
 
 - `2024-10-01` 终于抽出时间来搞这个了，争取今天一天之内把所有信息录入完成。
