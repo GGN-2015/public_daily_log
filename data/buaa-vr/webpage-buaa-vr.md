@@ -22,6 +22,7 @@ hugo server --disableFastRender # 没有报错
 
 - `2025-01-17` 修复了代老师和ZCK在实验室网站上的个人简介。（看到我自己去年做的灵车流水线还能用，感觉很欣慰）
 - `2025-01-20` 编写了一个自动化脚本用于信息填写。
+- `2025-01-20` 把 https://shi.buaa.edu.cn/jujun_pan/zh_CN/zdylm/29531/list/index.htm 上的信息转移到的心得官网上。
 
 ## 2024-10
 
