@@ -77,6 +77,14 @@ pip install scipy
 pip install numpy-stl
 ```
 
+## openai_env
+
+```bash
+conda create -n openai_env python
+conda activate openai_env
+pip install openai
+```
+
 ## pillow_env
 
 ```bash
