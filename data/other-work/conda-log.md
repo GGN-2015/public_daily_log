@@ -85,6 +85,14 @@ conda activate openai_env
 pip install openai
 ```
 
+## opencv_env
+
+```bash
+conda create -n opencv_env python
+conda activate opencv_env
+pip install opencv-python
+```
+
 ## pillow_env
 
 ```bash
