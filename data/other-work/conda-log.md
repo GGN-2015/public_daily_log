@@ -91,6 +91,7 @@ pip install openai
 conda create -n opencv_env python
 conda activate opencv_env
 pip install opencv-python
+pip install matplotlib
 ```
 
 ## pillow_env
