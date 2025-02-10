@@ -64,6 +64,14 @@ pip install matplotlib
 pip install scipy
 ```
 
+## librosa_env
+
+```bash
+conda create -n librosa_env python
+conda activate librosa_env
+pip install librosa
+```
+
 ## nibabel_env
 
 ```bash
