@@ -67,9 +67,10 @@ pip install scipy
 ## librosa_env
 
 ```bash
-conda create -n librosa_env python
+conda create -n librosa_env python==3.11
 conda activate librosa_env
 pip install librosa
+pip install sounddevice soundfile
 ```
 
 ## nibabel_env
