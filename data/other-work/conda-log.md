@@ -111,6 +111,14 @@ conda activate pillow_env
 pip install pillow
 ```
 
+## pygame_env
+
+```bash
+conda create -n pygame_env python
+conda activate pygame_env
+pip install pygame
+```
+
 ## sage_env
 
 ```bash
