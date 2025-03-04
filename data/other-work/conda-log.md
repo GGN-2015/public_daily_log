@@ -34,6 +34,14 @@ pip install scikit-learn
 pip install scikit-image
 ```
 
+## itk_env
+
+```bash
+conda create -n itk_env python
+conda activate itk_env
+pip install pydicom SimpleITK scikit-image trimesh
+```
+
 ## flask_env
 
 ```bash
