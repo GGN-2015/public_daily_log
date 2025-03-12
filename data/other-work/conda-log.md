@@ -39,8 +39,8 @@ pip install scikit-image
 ```bash
 conda create -n itk_env python
 conda activate itk_env
-pip install pydicom SimpleITK scikit-image trimesh
-pip install matplotlib
+pip install pydicom SimpleITK scikit-image trimesh 
+pip install matplotlib tqdm
 ```
 
 ## flask_env
