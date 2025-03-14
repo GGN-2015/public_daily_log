@@ -149,6 +149,15 @@ pip install pillow
 pip install scipy
 ```
 
+## sklearn_env
+
+```bash
+conda create -n sklearn_env python
+conda activate sklearn_env
+conda install scikit-learn
+pip install tqdm
+```
+
 ## tf_gpu_env
 
 - 基本上是跑不起来的，而且 GPU 也不可用，所以后来放弃了 gpu, 但是环境的名字没改
