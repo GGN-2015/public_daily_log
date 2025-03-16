@@ -95,6 +95,14 @@ pip install scipy
 pip install numpy-stl
 ```
 
+## open3d_env
+
+```bash
+conda create -n open3d_env python
+conda activate open3d_env
+conda install -c open3d-admin open3d
+```
+
 ## openai_env
 
 ```bash
