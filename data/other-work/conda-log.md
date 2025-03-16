@@ -101,6 +101,7 @@ pip install numpy-stl
 conda create -n open3d_env python
 conda activate open3d_env
 conda install -c open3d-admin open3d
+pip install tqdm
 ```
 
 ## openai_env
