@@ -34,6 +34,14 @@ pip install scikit-learn
 pip install scikit-image
 ```
 
+## dicom_bone_env
+
+```bash
+conda create -n dicom_bone_env python
+conda activate dicom_bone_env
+pip install dicom-bone
+```
+
 ## itk_env
 
 ```bash
