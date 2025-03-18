@@ -138,6 +138,14 @@ pip install pygame
 pip install numpy
 ```
 
+## py
+
+```bash
+conda create -n pyvista_env python
+conda activate pyvista_env
+conda install -c conda-forge pyvista
+```
+
 ## sage_env
 
 ```bash
@@ -157,6 +165,7 @@ pip install numpy
 pip install matplotlib
 pip install pillow
 pip install scipy
+pip install tqdm
 ```
 
 ## sklearn_env
@@ -191,6 +200,14 @@ conda activate vtk_env
 conda install -c conda-forge vtk
 pip install opencv-python
 pip install pillow
+```
+
+## trimesh_env
+
+```bash
+conda create -n trimesh_env python
+conda activate trimesh_env
+pip install trimesh numpy
 ```
 
 ## 如何打包一个 python 项目
