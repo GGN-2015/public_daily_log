@@ -166,6 +166,7 @@ pip install matplotlib
 pip install pillow
 pip install scipy
 pip install tqdm
+pip install scikit-learn
 ```
 
 ## sklearn_env
