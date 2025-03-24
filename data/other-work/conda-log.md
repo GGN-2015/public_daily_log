@@ -59,6 +59,15 @@ conda activate flask_env
 pip install flask
 ```
 
+## glut_env
+
+```bash
+conda create -n glut_env
+conda activate glut_env
+pip install PyOpenGL PyOpenGL_accelerate
+conda install -c anaconda pyopengl
+```
+
 ## google_env
 
 - 参考：https://pypi.org/project/google-generativeai/
