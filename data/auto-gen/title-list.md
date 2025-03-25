@@ -1,6 +1,7 @@
 # 《`GGN_2015` 公开日志的标题索引》
 | 标题 | 链接 |
 | ---- | ---- |
+| Spaceship War | [README.md](../../sub/spaceship-war-ave-mujica/README.md) |
 | 《$\cos \Theta$ 的分布情况》`2024-10-01` | [2024-10-01_cos.md](../../data/2024a-rand/2024-10-01_cos.md) |
 | 《2024 年 10 月公开日志》 | [2024-10_misc.md](../../data/misc/2024-10_misc.md) |
 | 《2024 年 11 月公开日志》 | [2024-11_misc.md](../../data/misc/2024-11_misc.md) |
