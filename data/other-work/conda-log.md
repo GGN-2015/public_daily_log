@@ -65,6 +65,7 @@ pip install flask
 conda create -n glut_env
 conda activate glut_env
 pip install PyOpenGL PyOpenGL_accelerate
+pip install numpy
 conda install -c anaconda pyopengl
 ```
 
@@ -218,6 +219,7 @@ conda activate vtk_env
 conda install -c conda-forge vtk
 pip install opencv-python
 pip install pillow
+pip install tqdm
 ```
 
 ## trimesh_env
