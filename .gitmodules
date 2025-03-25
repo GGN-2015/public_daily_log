@@ -1,0 +1,3 @@
+[submodule "sub/spaceship-war-ave-mujica"]
+	path = sub/spaceship-war-ave-mujica
+	url = git@github.com:GGN-2015/spaceship-war-ave-mujica.git
