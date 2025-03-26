@@ -67,6 +67,8 @@ conda activate glut_env
 pip install PyOpenGL PyOpenGL_accelerate
 pip install numpy
 conda install -c anaconda pyopengl
+conda install -c conda-forge glfw
+pip install glfw
 ```
 
 ## google_env
@@ -194,6 +196,7 @@ conda create -n sklearn_env python
 conda activate sklearn_env
 conda install scikit-learn
 pip install tqdm
+pip install matplotlib
 ```
 
 ## tf_gpu_env
