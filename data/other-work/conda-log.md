@@ -113,6 +113,7 @@ pip install Pillow
 pip install tqdm
 pip install scipy
 pip install numpy-stl
+pip install SimpleITK
 ```
 
 ## open3d_env
