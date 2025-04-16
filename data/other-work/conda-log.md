@@ -116,6 +116,7 @@ pip install numpy-stl
 pip install SimpleITK
 pip install pyvista
 pip install pymeshlab
+pip install trimesh
 ```
 
 ## open3d_env
