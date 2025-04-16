@@ -114,6 +114,8 @@ pip install tqdm
 pip install scipy
 pip install numpy-stl
 pip install SimpleITK
+pip install pyvista
+pip install pymeshlab
 ```
 
 ## open3d_env
