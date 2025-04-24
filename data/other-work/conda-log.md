@@ -117,6 +117,7 @@ pip install SimpleITK
 pip install pyvista
 pip install pymeshlab
 pip install trimesh
+pip install scikit-learn
 ```
 
 ## open3d_env
