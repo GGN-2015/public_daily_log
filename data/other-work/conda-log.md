@@ -163,7 +163,16 @@ pip install pygame
 pip install numpy
 ```
 
-## py
+## pytorch_cpu_env
+
+```bash
+conda create -n pytorch_cpu_env python
+conda activate pytorch_cpu_env
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install matplotlib
+```
+
+## pyvista_env
 
 ```bash
 conda create -n pyvista_env python
