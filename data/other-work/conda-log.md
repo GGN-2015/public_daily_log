@@ -170,6 +170,18 @@ conda create -n pytorch_cpu_env python
 conda activate pytorch_cpu_env
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install matplotlib
+pip install tqdm
+```
+
+## pytorch_gpu_env
+
+```bash
+conda create -n pytorch_gpu_env python
+conda activate pytorch_gpu_env
+conda install cudatoolkit=11.8
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install matplotlib
+pip install tqdm
 ```
 
 ## pyvista_env
