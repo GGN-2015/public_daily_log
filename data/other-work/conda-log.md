@@ -177,12 +177,14 @@ pip install scikit-learn
 ## pytorch_gpu_env
 
 ```bash
-conda create -n pytorch_gpu_env python
+conda create -n pytorch_gpu_env python=3.13.3
 conda activate pytorch_gpu_env
 conda install cudatoolkit=11.8
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install matplotlib
 pip install tqdm
+pip install scipy
+pip install scikit-learn
 ```
 
 ## pyvista_env
