@@ -216,6 +216,7 @@ pip install pillow
 pip install scipy
 pip install tqdm
 pip install scikit-learn
+pip install vtk
 ```
 
 ## sklearn_env
