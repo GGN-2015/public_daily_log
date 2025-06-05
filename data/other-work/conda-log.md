@@ -251,6 +251,7 @@ conda create -n vtk_env python
 conda activate vtk_env
 conda install -c conda-forge vtk
 pip install opencv-python
+conda install -c open3d-admin open3d
 pip install pillow
 pip install tqdm
 ```
