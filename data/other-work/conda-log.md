@@ -268,6 +268,14 @@ conda activate trimesh_env
 pip install trimesh numpy
 ```
 
+## yolov8_env
+
+```bash
+conda create -n yolov8_env python=3.9 -y
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install ultralytics opencv-python-headless pillow matplotlib
+```
+
 ## 如何打包一个 python 项目
 
 - 首先，编写 `MANIFEST.IN` 以及 `pyproject.toml` 
