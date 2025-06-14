@@ -274,6 +274,7 @@ pip install trimesh numpy
 conda create -n yolov8_env python=3.9 -y
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install ultralytics opencv-python-headless pillow matplotlib
+conda install -c conda-forge rasterio
 ```
 
 ## 如何打包一个 python 项目
