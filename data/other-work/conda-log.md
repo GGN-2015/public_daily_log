@@ -162,6 +162,7 @@ conda create -n pygame_env python
 conda activate pygame_env
 pip install pygame
 pip install numpy
+pip install pillow
 ```
 
 ## pytorch_cpu_env
@@ -231,6 +232,14 @@ conda activate sklearn_env
 conda install scikit-learn
 pip install tqdm
 pip install matplotlib
+```
+
+## sympy_env
+
+```bash
+conda create -n sympy_env python
+conda activate sympy_env
+pip install sympy
 ```
 
 ## tf_gpu_env
