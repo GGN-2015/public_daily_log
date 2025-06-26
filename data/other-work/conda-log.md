@@ -162,7 +162,6 @@ conda create -n pygame_env python
 conda activate pygame_env
 pip install pygame
 pip install numpy
-pip install svglib reportlab pillow
 ```
 
 ## pytorch_cpu_env
