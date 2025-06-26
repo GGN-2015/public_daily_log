@@ -15,6 +15,7 @@ conda activate base
 pip install cryptography # 用于 neko load_crypto
 pip install build twine  # 用于 pypi 打包
 pip install markdown2    # 用于日志 html 的渲染
+pip install pygithub     # 用于获取 repo 列表
 ```
 
 ## dcm_env
@@ -217,7 +218,10 @@ pip install pillow
 pip install scipy
 pip install tqdm
 pip install scikit-learn
+pip install scikit-image
 pip install vtk
+pip install opencv-python
+pip install PyWavelets
 ```
 
 ## sklearn_env
@@ -228,6 +232,14 @@ conda activate sklearn_env
 conda install scikit-learn
 pip install tqdm
 pip install matplotlib
+```
+
+## sympy_env
+
+```bash
+conda create -n sympy_env python
+conda activate sympy_env
+pip install sympy
 ```
 
 ## tf_gpu_env
@@ -252,6 +264,7 @@ conda create -n vtk_env python
 conda activate vtk_env
 conda install -c conda-forge vtk
 pip install opencv-python
+conda install -c open3d-admin open3d
 pip install pillow
 pip install tqdm
 ```
@@ -262,6 +275,15 @@ pip install tqdm
 conda create -n trimesh_env python
 conda activate trimesh_env
 pip install trimesh numpy
+```
+
+## yolov8_env
+
+```bash
+conda create -n yolov8_env python=3.9 -y
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install ultralytics opencv-python-headless pillow matplotlib
+conda install -c conda-forge rasterio
 ```
 
 ## 如何打包一个 python 项目
