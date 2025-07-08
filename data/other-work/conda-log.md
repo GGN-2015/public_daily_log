@@ -163,7 +163,9 @@ conda activate pyautogui_env
 pip install pyautogui
 pip install pyperclip
 pip install Pillow
-sudo oma install  gnome-screenshot # on AOSC OS
+pip install opencv-python
+pip install requests
+sudo oma install gnome-screenshot # on AOSC OS
 ```
 
 ## pygame_env
