@@ -155,6 +155,17 @@ conda activate pillow_env
 pip install pillow
 ```
 
+## pyautogui_env
+
+```bash
+conda create -n pyautogui_env python
+conda activate pyautogui_env
+pip install pyautogui
+pip install pyperclip
+pip install Pillow
+sudo oma install  gnome-screenshot # on AOSC OS
+```
+
 ## pygame_env
 
 ```bash
