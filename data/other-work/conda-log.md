@@ -165,6 +165,7 @@ pip install pyperclip
 pip install Pillow
 pip install opencv-python
 pip install requests
+pip install openai
 sudo oma install gnome-screenshot # on AOSC OS
 ```
 
