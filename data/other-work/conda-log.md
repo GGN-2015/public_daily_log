@@ -247,6 +247,15 @@ pip install tqdm
 pip install matplotlib
 ```
 
+## shapez_env
+
+```bash
+conda create -n shapez_env
+conda activate shapez_env
+conda config --add channels conda-forge
+conda install nodejs=16
+```
+
 ## sympy_env
 
 ```bash
