@@ -253,7 +253,7 @@ pip install matplotlib
 conda create -n shapez_env
 conda activate shapez_env
 conda config --add channels conda-forge
-conda install nodejs=16
+conda install nodejs=16.18.0
 ```
 
 ## sympy_env
