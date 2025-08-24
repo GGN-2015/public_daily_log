@@ -235,6 +235,7 @@ pip install scikit-image
 pip install vtk
 pip install opencv-python
 pip install PyWavelets
+pip install flask
 ```
 
 ## sklearn_env
@@ -277,6 +278,14 @@ pip install scikit-learn
 conda install nltk
 python3 -c "import nltk; nltk.download('punkt')"
 python3 -c "import nltk; nltk.download('punkt_tab')" # 请确保安装成功，经常会有报错
+```
+
+## vlc_env
+
+```bash
+conda create -n vlc_env python
+conda activate vlc_env
+pip install python-vlc
 ```
 
 ## vtk_env
