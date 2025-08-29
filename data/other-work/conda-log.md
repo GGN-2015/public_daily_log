@@ -239,6 +239,7 @@ pip install opencv-python
 pip install PyWavelets
 pip install flask
 pip install SimpleITK
+pip install vedo
 ```
 
 ## sklearn_env
