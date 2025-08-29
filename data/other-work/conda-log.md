@@ -136,6 +136,8 @@ pip install tqdm
 conda create -n openai_env python
 conda activate openai_env
 pip install openai
+pip install pillow
+pip install requests
 ```
 
 ## opencv_env
@@ -236,6 +238,7 @@ pip install vtk
 pip install opencv-python
 pip install PyWavelets
 pip install flask
+pip install SimpleITK
 ```
 
 ## sklearn_env
