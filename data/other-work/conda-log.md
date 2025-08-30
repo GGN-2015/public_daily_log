@@ -138,6 +138,9 @@ conda activate openai_env
 pip install openai
 pip install pillow
 pip install requests
+pip install flask
+pip install flask-socketio
+pip install psutil
 ```
 
 ## opencv_env
