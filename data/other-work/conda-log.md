@@ -136,9 +136,17 @@ pip install tqdm
 conda create -n openai_env python
 conda activate openai_env
 pip install openai
+<<<<<<< HEAD
 pip install flask
 pip install eel
 pip install requests
+=======
+pip install pillow
+pip install requests
+pip install flask
+pip install flask-socketio
+pip install psutil
+>>>>>>> 59aba5af0f9894e685db8d3ecf5d66d3c3bf3200
 ```
 
 ## opencv_env
@@ -238,6 +246,9 @@ pip install scikit-image
 pip install vtk
 pip install opencv-python
 pip install PyWavelets
+pip install flask
+pip install SimpleITK
+pip install vedo
 ```
 
 ## sklearn_env
@@ -248,6 +259,15 @@ conda activate sklearn_env
 conda install scikit-learn
 pip install tqdm
 pip install matplotlib
+```
+
+## shapez_env
+
+```bash
+conda create -n shapez_env
+conda activate shapez_env
+conda config --add channels conda-forge
+conda install nodejs=16.18.0
 ```
 
 ## sympy_env
@@ -271,6 +291,14 @@ pip install scikit-learn
 conda install nltk
 python3 -c "import nltk; nltk.download('punkt')"
 python3 -c "import nltk; nltk.download('punkt_tab')" # 请确保安装成功，经常会有报错
+```
+
+## vlc_env
+
+```bash
+conda create -n vlc_env python
+conda activate vlc_env
+pip install python-vlc
 ```
 
 ## vtk_env
