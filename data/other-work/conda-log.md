@@ -136,17 +136,15 @@ pip install tqdm
 conda create -n openai_env python
 conda activate openai_env
 pip install openai
-<<<<<<< HEAD
 pip install flask
 pip install eel
 pip install requests
-=======
 pip install pillow
 pip install requests
-pip install flask
 pip install flask-socketio
 pip install psutil
->>>>>>> 59aba5af0f9894e685db8d3ecf5d66d3c3bf3200
+pip install pyperclip
+pip install flask-cors
 ```
 
 ## opencv_env
