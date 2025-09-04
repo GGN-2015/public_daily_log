@@ -136,6 +136,9 @@ pip install tqdm
 conda create -n openai_env python
 conda activate openai_env
 pip install openai
+pip install flask
+pip install eel
+pip install requests
 ```
 
 ## opencv_env
@@ -309,4 +312,3 @@ rm -f ./dist/*
 python3 -m build
 python3 -m twine upload ./dist/*
 ```
-
