@@ -16,6 +16,7 @@ pip install cryptography # 用于 neko load_crypto
 pip install build twine  # 用于 pypi 打包
 pip install markdown2    # 用于日志 html 的渲染
 pip install pygithub     # 用于获取 repo 列表
+pip install pynput       # 用于使用键盘控制鼠标点击
 ```
 
 ## dcm_env
@@ -338,3 +339,4 @@ rm -f ./dist/*
 python3 -m build
 python3 -m twine upload ./dist/*
 ```
+
