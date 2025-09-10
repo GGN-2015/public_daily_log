@@ -242,12 +242,13 @@ pip install scipy
 pip install tqdm
 pip install scikit-learn
 pip install scikit-image
-pip install vtk
 pip install opencv-python
 pip install PyWavelets
 pip install flask
 pip install SimpleITK
+pip install trimesh
 pip install vedo
+pip install vtk
 ```
 
 ## sklearn_env
