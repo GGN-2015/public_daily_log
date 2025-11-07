@@ -179,6 +179,18 @@ pip install openai
 sudo oma install gnome-screenshot # on AOSC OS
 ```
 
+## librosa_env
+
+```bash
+conda create -n librosa_env python=3.12
+conda activate librosa_env
+pip install numpy 
+pip install scipy 
+pip install soundfile 
+pip install librosa
+pip install matplotlib
+```
+
 ## pygame_env
 
 ```bash
