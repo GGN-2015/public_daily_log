@@ -19,6 +19,15 @@ pip install pygithub     # 用于获取 repo 列表
 pip install pynput       # 用于使用键盘控制鼠标点击
 ```
 
+## cupy_env
+
+```bash
+conda create -n cupy_env python
+conda activate cupy_env
+conda install -c conda-forge cupy
+pip install pillow
+```
+
 ## dcm_env
 
 ```bash
