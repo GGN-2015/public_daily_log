@@ -26,6 +26,7 @@ conda create -n cupy_env python
 conda activate cupy_env
 conda install -c conda-forge cupy
 pip install pillow
+pip install tqdm
 ```
 
 ## dcm_env
