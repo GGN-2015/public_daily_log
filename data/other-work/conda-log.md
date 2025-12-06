@@ -204,7 +204,7 @@ pip install matplotlib
 ## pygame_env
 
 ```bash
-conda create -n pygame_env python
+conda create -n pygame_env python=3.13
 conda activate pygame_env
 pip install pygame
 pip install numpy
