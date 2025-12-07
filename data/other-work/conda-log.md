@@ -210,6 +210,15 @@ pip install pygame
 pip install numpy
 ```
 
+## pyqt5_env
+
+```bash
+conda create -n pyqt5_env python
+conda activate pyqt5_env
+conda install pyqt=5
+pip install pillow
+```
+
 ## pytorch_cpu_env
 
 ```bash
