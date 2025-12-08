@@ -364,6 +364,7 @@ conda install -c conda-forge rasterio
 ## 如何打包一个 python 项目
 
 - 首先，编写 `MANIFEST.IN` 以及 `pyproject.toml` 
+- 每当修改并想要发布新版本时，记得先让版本号增加一。
 - 在 `base` 环境下执行一下命令：
 
 ```bash
