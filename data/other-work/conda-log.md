@@ -370,6 +370,7 @@ conda install -c conda-forge rasterio
 
 ```bash
 rm -f ./dist/*
+poetry check
 python3 -m build
 python3 -m twine upload ./dist/*
 ```
