@@ -5,7 +5,7 @@
 ## 删除一个虚拟环境
 
 ```bash
-conda remove --name <虚拟环境名> --all
+conda remove -n <虚拟环境名> --all
 ```
 
 ## base
@@ -17,6 +17,7 @@ pip install build twine  # 用于 pypi 打包
 pip install markdown2    # 用于日志 html 的渲染
 pip install pygithub     # 用于获取 repo 列表
 pip install pynput       # 用于使用键盘控制鼠标点击
+pip install poetry       # 用于检查打包正确性
 ```
 
 ## cupy_env
