@@ -375,3 +375,7 @@ python3 -m build
 python3 -m twine upload ./dist/*
 ```
 
+## 如何让 windows CMD 默认 conda activate base
+使用 regedit 修改注册表项：`\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor\` 在其中添加字符串字段 `AutoRun` 值，值为：`@call "C:\ProgramData\miniconda3\Scripts\activate.bat" base > nul 2>&1`
+
+其中 `C:\ProgramData\miniconda3` 应该替换为你的 miniconda 的安装路径。
