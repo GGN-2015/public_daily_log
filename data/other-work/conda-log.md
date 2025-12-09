@@ -379,3 +379,6 @@ python3 -m twine upload ./dist/*
 使用 regedit 修改注册表项：`\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor\` 在其中添加字符串字段 `AutoRun` 值，值为：`@call "C:\ProgramData\miniconda3\Scripts\activate.bat" base > nul 2>&1`
 
 其中 `C:\ProgramData\miniconda3` 应该替换为你的 miniconda 的安装路径。
+
+## 如何让 vscode 默认使用 CMD 作为命令提示符
+在 vscode 中使用快捷键 `Ctrl + ,` 打开设置，然后编辑 `terminal.integrated.defaultProfile.windows` 的值到 `Command Prompt(cmd.exe)` 即可。
