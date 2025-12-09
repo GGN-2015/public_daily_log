@@ -376,9 +376,24 @@ python3 -m twine upload ./dist/*
 ```
 
 ## 如何让 windows CMD 默认 conda activate base
-使用 regedit 修改注册表项：`\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor\` 在其中添加字符串字段 `AutoRun` 值，值为：`@call "C:\ProgramData\miniconda3\Scripts\activate.bat" base > nul 2>&1`
+使用 regedit 修改注册表项（二者任选其一）：
 
-其中 `C:\ProgramData\miniconda3` 应该替换为你的 miniconda 的安装路径。
+1. `\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor` 
+2. `\HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
+
+在其中添加字符串字段 `AutoRun` 值，值为：`@call "C:\ProgramData\miniconda3\Scripts\activate.bat" base > nul 2>&1`
+
+其中 `C:\ProgramData\miniconda3` 应该替换为你的 miniconda 的安装路径，`AutoDun` 中有多条命令时命令之间用 `&` 分割。
+
+## 如何让 windows CMD 自动注入 clink
+使用 regedit 修改注册表项（二者任选其一）：
+
+1. `\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor` 
+2. `\HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
+
+在其中添加字符串字段 `AutoRun` 值，值为：`"C:\Program Files (x86)\clink\clink.bat" inject --autorun --profile ~\clink`
+
+其中 `C:\Program Files (x86)\clink` 应该替换为你的 clink 的安装路径，`AutoDun` 中有多条命令时命令之间用 `&` 分割。
 
 ## 如何让 vscode 默认使用 CMD 作为命令提示符
 在 vscode 中使用快捷键 `Ctrl + ,` 打开设置，然后编辑 `terminal.integrated.defaultProfile.windows` 的值到 `Command Prompt(cmd.exe)` 即可。
