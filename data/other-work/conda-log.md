@@ -196,6 +196,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install matplotlib
 pip install tqdm
 pip install scikit-learn
+pip install pillow
 ```
 
 ## pytorch_gpu_env
@@ -338,3 +339,4 @@ rm -f ./dist/*
 python3 -m build
 python3 -m twine upload ./dist/*
 ```
+
