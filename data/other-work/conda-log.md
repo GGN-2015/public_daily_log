@@ -5,7 +5,7 @@
 ## 删除一个虚拟环境
 
 ```bash
-conda remove --name <虚拟环境名> --all
+conda remove -n <虚拟环境名> --all
 ```
 
 ## base
@@ -16,6 +16,18 @@ pip install cryptography # 用于 neko load_crypto
 pip install build twine  # 用于 pypi 打包
 pip install markdown2    # 用于日志 html 的渲染
 pip install pygithub     # 用于获取 repo 列表
+pip install pynput       # 用于使用键盘控制鼠标点击
+pip install poetry       # 用于检查打包正确性
+```
+
+## cupy_env
+
+```bash
+conda create -n cupy_env python
+conda activate cupy_env
+conda install -c conda-forge cupy
+pip install pillow
+pip install tqdm
 ```
 
 ## dcm_env
@@ -178,13 +190,34 @@ pip install openai
 sudo oma install gnome-screenshot # on AOSC OS
 ```
 
+## librosa_env
+
+```bash
+conda create -n librosa_env python=3.12
+conda activate librosa_env
+pip install numpy 
+pip install scipy 
+pip install soundfile 
+pip install librosa
+pip install matplotlib
+```
+
 ## pygame_env
 
 ```bash
-conda create -n pygame_env python
+conda create -n pygame_env python=3.13
 conda activate pygame_env
 pip install pygame
 pip install numpy
+```
+
+## pyqt5_env
+
+```bash
+conda create -n pyqt5_env python
+conda activate pyqt5_env
+conda install pyqt=5
+pip install pillow
 ```
 
 ## pytorch_cpu_env
@@ -242,12 +275,13 @@ pip install scipy
 pip install tqdm
 pip install scikit-learn
 pip install scikit-image
-pip install vtk
 pip install opencv-python
 pip install PyWavelets
 pip install flask
 pip install SimpleITK
+pip install trimesh
 pip install vedo
+pip install vtk
 ```
 
 ## sklearn_env
@@ -332,11 +366,35 @@ conda install -c conda-forge rasterio
 ## 如何打包一个 python 项目
 
 - 首先，编写 `MANIFEST.IN` 以及 `pyproject.toml` 
+- 每当修改并想要发布新版本时，记得先让版本号增加一。
 - 在 `base` 环境下执行一下命令：
 
 ```bash
 rm -f ./dist/*
+poetry check
 python3 -m build
 python3 -m twine upload ./dist/*
 ```
 
+## 如何让 windows CMD 默认 conda activate base
+使用 regedit 修改注册表项（二者任选其一）：
+
+1. `\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor` 
+2. `\HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
+
+在其中添加字符串字段 `AutoRun` 值，值为：`@call "C:\ProgramData\miniconda3\Scripts\activate.bat" base > nul 2>&1`
+
+其中 `C:\ProgramData\miniconda3` 应该替换为你的 miniconda 的安装路径，`AutoDun` 中有多条命令时命令之间用 `&` 分割。
+
+## 如何让 windows CMD 自动注入 clink
+使用 regedit 修改注册表项（二者任选其一）：
+
+1. `\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor` 
+2. `\HKEY_CURRENT_USER\Software\Microsoft\Command Processor`
+
+在其中添加字符串字段 `AutoRun` 值，值为：`"C:\Program Files (x86)\clink\clink.bat" inject --autorun --profile ~\clink`
+
+其中 `C:\Program Files (x86)\clink` 应该替换为你的 clink 的安装路径，`AutoDun` 中有多条命令时命令之间用 `&` 分割。
+
+## 如何让 vscode 默认使用 CMD 作为命令提示符
+在 vscode 中使用快捷键 `Ctrl + ,` 打开设置，然后编辑 `terminal.integrated.defaultProfile.windows` 的值到 `Command Prompt(cmd.exe)` 即可。

@@ -31,4 +31,5 @@
 ## 杂项
 
 - 帮金币的同学配环境：[2024-11-06_help-env.md](../../data/other-work/2024-11-06_help-env.md)
+- 从神经网络想到个一个概率问题：[2025-11-18_a-proof.md](../../data/other-work/2025-11-18_a-proof.md)
 
