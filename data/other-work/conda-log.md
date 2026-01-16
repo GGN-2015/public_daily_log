@@ -118,7 +118,7 @@ pip install sounddevice soundfile
 ## nibabel_env
 
 ```bash
-conda create -n nibabel_env python
+conda create -n nibabel_env python=3.13.1
 conda activate nibabel_env
 pip install vtk
 pip install nibabel
